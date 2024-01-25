@@ -1,0 +1,1470 @@
+2023-10-23 11:30:57,029 - DEBUG - 디버그 메시지입니다.
+2023-10-23 11:30:57,029 - INFO - 정보 메시지입니다.
+2023-10-23 11:30:57,029 - WARNING - 경고 메시지입니다.
+2023-10-23 11:30:57,030 - ERROR - 에러 메시지입니다.
+2023-10-23 11:30:57,030 - CRITICAL - 심각한 오류 메시지입니다.
+2023-10-23 12:50:19,861 - DEBUG - 디버그 메시지입니다.
+2023-10-23 12:50:19,861 - INFO - 정보 메시지입니다.
+2023-10-23 12:50:19,861 - WARNING - 경고 메시지입니다.
+2023-10-23 12:50:19,861 - ERROR - 에러 메시지입니다.
+2023-10-23 12:50:19,861 - CRITICAL - 심각한 오류 메시지입니다.
+2023-10-23 12:50:19,862 - DEBUG - Looking up time zone info from registry
+2023-10-23 12:50:19,873 - INFO - Scheduler started
+2023-10-23 12:50:19,874 - DEBUG - Looking for jobs to run
+2023-10-23 12:50:19,875 - DEBUG - No jobs; waiting until a job is added
+2023-10-23 12:50:19,880 - INFO - Added job "ThreadRead.thread_function" to job store "default"
+2023-10-23 12:50:19,880 - INFO - Added job "ThreadRead.thread_function" to job store "default"
+2023-10-23 12:50:19,880 - DEBUG - Looking for jobs to run
+2023-10-23 12:50:19,881 - INFO - Added job "ThreadRead.thread_function" to job store "default"
+2023-10-23 12:50:19,881 - DEBUG - Next wakeup is due at 2023-10-23 12:55:00+09:00 (in 280.118642 seconds)
+2023-10-23 12:50:19,881 - INFO - Added job "ThreadRead.thread_function" to job store "default"
+2023-10-23 12:50:19,881 - DEBUG - Looking for jobs to run
+2023-10-23 12:50:19,882 - INFO - Added job "ThreadRead.thread_function" to job store "default"
+2023-10-23 12:50:19,882 - DEBUG - Next wakeup is due at 2023-10-23 12:55:00+09:00 (in 280.117643 seconds)
+2023-10-23 12:50:19,882 - DEBUG - Looking for jobs to run
+2023-10-23 12:50:19,882 - DEBUG - Next wakeup is due at 2023-10-23 12:55:00+09:00 (in 280.117643 seconds)
+2023-10-23 12:55:00,006 - DEBUG - Looking for jobs to run
+2023-10-23 12:55:00,008 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 12:55:00 KST)" (scheduled at 2023-10-23 12:55:00+09:00)
+2023-10-23 12:55:00,009 - DEBUG - Next wakeup is due at 2023-10-23 13:00:00+09:00 (in 299.991000 seconds)
+2023-10-23 12:55:09,942 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 13:05:00 KST)" executed successfully
+2023-10-23 13:00:00,010 - DEBUG - Looking for jobs to run
+2023-10-23 13:00:00,011 - DEBUG - Next wakeup is due at 2023-10-23 13:05:00+09:00 (in 299.988690 seconds)
+2023-10-23 13:00:00,011 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 13:10:00 KST)" (scheduled at 2023-10-23 13:00:00+09:00)
+2023-10-23 13:00:03,889 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 13:10:00 KST)" executed successfully
+2023-10-23 13:05:00,013 - DEBUG - Looking for jobs to run
+2023-10-23 13:05:00,014 - DEBUG - Next wakeup is due at 2023-10-23 13:10:00+09:00 (in 299.986010 seconds)
+2023-10-23 13:05:00,014 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 13:15:00 KST)" (scheduled at 2023-10-23 13:05:00+09:00)
+2023-10-23 13:05:05,003 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 13:15:00 KST)" executed successfully
+2023-10-23 13:10:00,014 - DEBUG - Looking for jobs to run
+2023-10-23 13:10:00,014 - DEBUG - Next wakeup is due at 2023-10-23 13:15:00+09:00 (in 299.985294 seconds)
+2023-10-23 13:10:00,014 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 13:20:00 KST)" (scheduled at 2023-10-23 13:10:00+09:00)
+2023-10-23 13:10:47,313 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 13:20:00 KST)" executed successfully
+2023-10-23 13:15:00,006 - DEBUG - Looking for jobs to run
+2023-10-23 13:15:00,006 - DEBUG - Next wakeup is due at 2023-10-23 13:20:00+09:00 (in 299.993166 seconds)
+2023-10-23 13:15:00,007 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 13:25:00 KST)" (scheduled at 2023-10-23 13:15:00+09:00)
+2023-10-23 13:15:21,239 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 13:25:00 KST)" executed successfully
+2023-10-23 13:20:00,011 - DEBUG - Looking for jobs to run
+2023-10-23 13:20:00,011 - DEBUG - Next wakeup is due at 2023-10-23 13:25:00+09:00 (in 299.988973 seconds)
+2023-10-23 13:20:00,011 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 13:30:00 KST)" (scheduled at 2023-10-23 13:20:00+09:00)
+2023-10-23 13:20:27,891 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 13:30:00 KST)" executed successfully
+2023-10-23 13:25:00,010 - DEBUG - Looking for jobs to run
+2023-10-23 13:25:00,010 - DEBUG - Next wakeup is due at 2023-10-23 13:30:00+09:00 (in 299.989406 seconds)
+2023-10-23 13:25:00,010 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 13:35:00 KST)" (scheduled at 2023-10-23 13:25:00+09:00)
+2023-10-23 13:25:36,169 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 13:35:00 KST)" executed successfully
+2023-10-23 13:30:00,011 - DEBUG - Looking for jobs to run
+2023-10-23 13:30:00,012 - DEBUG - Next wakeup is due at 2023-10-23 13:35:00+09:00 (in 299.987527 seconds)
+2023-10-23 13:30:00,012 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 13:40:00 KST)" (scheduled at 2023-10-23 13:30:00+09:00)
+2023-10-23 13:30:03,863 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 13:40:00 KST)" executed successfully
+2023-10-23 13:35:00,009 - DEBUG - Looking for jobs to run
+2023-10-23 13:35:00,009 - DEBUG - Next wakeup is due at 2023-10-23 13:40:00+09:00 (in 299.990618 seconds)
+2023-10-23 13:35:00,010 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 13:45:00 KST)" (scheduled at 2023-10-23 13:35:00+09:00)
+2023-10-23 13:35:01,788 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 13:45:00 KST)" executed successfully
+2023-10-23 13:40:00,016 - DEBUG - Looking for jobs to run
+2023-10-23 13:40:00,016 - DEBUG - Next wakeup is due at 2023-10-23 13:45:00+09:00 (in 299.983355 seconds)
+2023-10-23 13:40:00,016 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 13:50:00 KST)" (scheduled at 2023-10-23 13:40:00+09:00)
+2023-10-23 13:40:16,899 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 13:50:00 KST)" executed successfully
+2023-10-23 13:45:00,013 - DEBUG - Looking for jobs to run
+2023-10-23 13:45:00,013 - DEBUG - Next wakeup is due at 2023-10-23 13:50:00+09:00 (in 299.986618 seconds)
+2023-10-23 13:45:00,013 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 13:55:00 KST)" (scheduled at 2023-10-23 13:45:00+09:00)
+2023-10-23 13:45:08,925 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 13:55:00 KST)" executed successfully
+2023-10-23 13:50:00,012 - DEBUG - Looking for jobs to run
+2023-10-23 13:50:00,012 - DEBUG - Next wakeup is due at 2023-10-23 13:55:00+09:00 (in 299.987061 seconds)
+2023-10-23 13:50:00,012 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 14:00:00 KST)" (scheduled at 2023-10-23 13:50:00+09:00)
+2023-10-23 13:50:47,352 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 14:00:00 KST)" executed successfully
+2023-10-23 13:55:00,003 - DEBUG - Looking for jobs to run
+2023-10-23 13:55:00,003 - DEBUG - Next wakeup is due at 2023-10-23 14:00:00+09:00 (in 299.996017 seconds)
+2023-10-23 13:55:00,003 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 14:05:00 KST)" (scheduled at 2023-10-23 13:55:00+09:00)
+2023-10-23 13:55:02,884 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 14:05:00 KST)" executed successfully
+2023-10-23 14:00:00,004 - DEBUG - Looking for jobs to run
+2023-10-23 14:00:00,004 - DEBUG - Next wakeup is due at 2023-10-23 14:05:00+09:00 (in 299.995560 seconds)
+2023-10-23 14:00:00,004 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 14:10:00 KST)" (scheduled at 2023-10-23 14:00:00+09:00)
+2023-10-23 14:00:35,788 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 14:10:00 KST)" executed successfully
+2023-10-23 14:05:00,010 - DEBUG - Looking for jobs to run
+2023-10-23 14:05:00,010 - DEBUG - Next wakeup is due at 2023-10-23 14:10:00+09:00 (in 299.989366 seconds)
+2023-10-23 14:05:00,010 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 14:15:00 KST)" (scheduled at 2023-10-23 14:05:00+09:00)
+2023-10-23 14:05:40,357 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 14:15:00 KST)" executed successfully
+2023-10-23 14:10:00,002 - DEBUG - Looking for jobs to run
+2023-10-23 14:10:00,003 - DEBUG - Next wakeup is due at 2023-10-23 14:15:00+09:00 (in 299.996367 seconds)
+2023-10-23 14:10:00,003 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 14:20:00 KST)" (scheduled at 2023-10-23 14:10:00+09:00)
+2023-10-23 14:10:02,031 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 14:20:00 KST)" executed successfully
+2023-10-23 14:15:00,013 - DEBUG - Looking for jobs to run
+2023-10-23 14:15:00,013 - DEBUG - Next wakeup is due at 2023-10-23 14:20:00+09:00 (in 299.986009 seconds)
+2023-10-23 14:15:00,014 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 14:25:00 KST)" (scheduled at 2023-10-23 14:15:00+09:00)
+2023-10-23 14:15:04,062 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 14:25:00 KST)" executed successfully
+2023-10-23 14:20:00,003 - DEBUG - Looking for jobs to run
+2023-10-23 14:20:00,004 - DEBUG - Next wakeup is due at 2023-10-23 14:25:00+09:00 (in 299.995666 seconds)
+2023-10-23 14:20:00,004 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 14:30:00 KST)" (scheduled at 2023-10-23 14:20:00+09:00)
+2023-10-23 14:20:16,851 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 14:30:00 KST)" executed successfully
+2023-10-23 14:25:00,002 - DEBUG - Looking for jobs to run
+2023-10-23 14:25:00,002 - DEBUG - Next wakeup is due at 2023-10-23 14:30:00+09:00 (in 299.997423 seconds)
+2023-10-23 14:25:00,002 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 14:35:00 KST)" (scheduled at 2023-10-23 14:25:00+09:00)
+2023-10-23 14:25:05,044 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 14:35:00 KST)" executed successfully
+2023-10-23 14:30:00,002 - DEBUG - Looking for jobs to run
+2023-10-23 14:30:00,003 - DEBUG - Next wakeup is due at 2023-10-23 14:35:00+09:00 (in 299.996115 seconds)
+2023-10-23 14:30:00,003 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 14:40:00 KST)" (scheduled at 2023-10-23 14:30:00+09:00)
+2023-10-23 14:31:00,222 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 14:40:00 KST)" executed successfully
+2023-10-23 14:35:00,003 - DEBUG - Looking for jobs to run
+2023-10-23 14:35:00,003 - DEBUG - Next wakeup is due at 2023-10-23 14:40:00+09:00 (in 299.996845 seconds)
+2023-10-23 14:35:00,003 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 14:45:00 KST)" (scheduled at 2023-10-23 14:35:00+09:00)
+2023-10-23 14:35:35,169 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 14:45:00 KST)" executed successfully
+2023-10-23 14:40:00,011 - DEBUG - Looking for jobs to run
+2023-10-23 14:40:00,011 - DEBUG - Next wakeup is due at 2023-10-23 14:45:00+09:00 (in 299.988909 seconds)
+2023-10-23 14:40:00,012 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 14:50:00 KST)" (scheduled at 2023-10-23 14:40:00+09:00)
+2023-10-23 14:40:26,592 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 14:50:00 KST)" executed successfully
+2023-10-23 14:45:00,011 - DEBUG - Looking for jobs to run
+2023-10-23 14:45:00,012 - DEBUG - Next wakeup is due at 2023-10-23 14:50:00+09:00 (in 299.987935 seconds)
+2023-10-23 14:45:00,012 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 14:55:00 KST)" (scheduled at 2023-10-23 14:45:00+09:00)
+2023-10-23 14:46:21,766 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 14:55:00 KST)" executed successfully
+2023-10-23 14:50:00,004 - DEBUG - Looking for jobs to run
+2023-10-23 14:50:00,004 - DEBUG - Next wakeup is due at 2023-10-23 14:55:00+09:00 (in 299.995468 seconds)
+2023-10-23 14:50:00,005 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 15:00:00 KST)" (scheduled at 2023-10-23 14:50:00+09:00)
+2023-10-23 14:50:47,057 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 15:00:00 KST)" executed successfully
+2023-10-23 14:55:00,003 - DEBUG - Looking for jobs to run
+2023-10-23 14:55:00,003 - DEBUG - Next wakeup is due at 2023-10-23 15:00:00+09:00 (in 299.996035 seconds)
+2023-10-23 14:55:00,003 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 15:05:00 KST)" (scheduled at 2023-10-23 14:55:00+09:00)
+2023-10-23 14:55:42,497 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 15:05:00 KST)" executed successfully
+2023-10-23 15:00:00,011 - DEBUG - Looking for jobs to run
+2023-10-23 15:00:00,011 - DEBUG - Next wakeup is due at 2023-10-23 15:05:00+09:00 (in 299.988671 seconds)
+2023-10-23 15:00:00,012 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 15:10:00 KST)" (scheduled at 2023-10-23 15:00:00+09:00)
+2023-10-23 15:00:22,517 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 15:10:00 KST)" executed successfully
+2023-10-23 15:05:00,008 - DEBUG - Looking for jobs to run
+2023-10-23 15:05:00,008 - DEBUG - Next wakeup is due at 2023-10-23 15:10:00+09:00 (in 299.991279 seconds)
+2023-10-23 15:05:00,008 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 15:15:00 KST)" (scheduled at 2023-10-23 15:05:00+09:00)
+2023-10-23 15:05:27,330 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 15:15:00 KST)" executed successfully
+2023-10-23 15:10:00,015 - DEBUG - Looking for jobs to run
+2023-10-23 15:10:00,015 - DEBUG - Next wakeup is due at 2023-10-23 15:15:00+09:00 (in 299.984412 seconds)
+2023-10-23 15:10:00,015 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 15:20:00 KST)" (scheduled at 2023-10-23 15:10:00+09:00)
+2023-10-23 15:10:10,862 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 15:20:00 KST)" executed successfully
+2023-10-23 15:15:00,013 - DEBUG - Looking for jobs to run
+2023-10-23 15:15:00,013 - DEBUG - Next wakeup is due at 2023-10-23 15:20:00+09:00 (in 299.986451 seconds)
+2023-10-23 15:15:00,014 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 15:25:00 KST)" (scheduled at 2023-10-23 15:15:00+09:00)
+2023-10-23 15:15:05,491 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 15:25:00 KST)" executed successfully
+2023-10-23 15:20:00,010 - DEBUG - Looking for jobs to run
+2023-10-23 15:20:00,010 - DEBUG - Next wakeup is due at 2023-10-23 15:25:00+09:00 (in 299.989747 seconds)
+2023-10-23 15:20:00,011 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 15:30:00 KST)" (scheduled at 2023-10-23 15:20:00+09:00)
+2023-10-23 15:20:39,247 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 15:30:00 KST)" executed successfully
+2023-10-23 15:25:00,016 - DEBUG - Looking for jobs to run
+2023-10-23 15:25:00,016 - DEBUG - Next wakeup is due at 2023-10-23 15:30:00+09:00 (in 299.983979 seconds)
+2023-10-23 15:25:00,016 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 15:35:00 KST)" (scheduled at 2023-10-23 15:25:00+09:00)
+2023-10-23 15:25:12,985 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 15:35:00 KST)" executed successfully
+2023-10-23 15:30:00,011 - DEBUG - Looking for jobs to run
+2023-10-23 15:30:00,011 - DEBUG - Next wakeup is due at 2023-10-23 15:35:00+09:00 (in 299.988420 seconds)
+2023-10-23 15:30:00,011 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 15:40:00 KST)" (scheduled at 2023-10-23 15:30:00+09:00)
+2023-10-23 15:30:04,516 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 15:40:00 KST)" executed successfully
+2023-10-23 15:35:00,009 - DEBUG - Looking for jobs to run
+2023-10-23 15:35:00,010 - DEBUG - Next wakeup is due at 2023-10-23 15:40:00+09:00 (in 299.990332 seconds)
+2023-10-23 15:35:00,010 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 15:45:00 KST)" (scheduled at 2023-10-23 15:35:00+09:00)
+2023-10-23 15:35:22,811 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 15:45:00 KST)" executed successfully
+2023-10-23 15:40:00,005 - DEBUG - Looking for jobs to run
+2023-10-23 15:40:00,006 - DEBUG - Next wakeup is due at 2023-10-23 15:45:00+09:00 (in 299.993171 seconds)
+2023-10-23 15:40:00,006 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 15:50:00 KST)" (scheduled at 2023-10-23 15:40:00+09:00)
+2023-10-23 15:40:16,776 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 15:50:00 KST)" executed successfully
+2023-10-23 15:45:00,007 - DEBUG - Looking for jobs to run
+2023-10-23 15:45:00,007 - DEBUG - Next wakeup is due at 2023-10-23 15:50:00+09:00 (in 299.992407 seconds)
+2023-10-23 15:45:00,007 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 15:55:00 KST)" (scheduled at 2023-10-23 15:45:00+09:00)
+2023-10-23 15:45:33,418 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 15:55:00 KST)" executed successfully
+2023-10-23 15:50:00,001 - DEBUG - Looking for jobs to run
+2023-10-23 15:50:00,002 - DEBUG - Next wakeup is due at 2023-10-23 15:55:00+09:00 (in 299.997240 seconds)
+2023-10-23 15:50:00,002 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 16:00:00 KST)" (scheduled at 2023-10-23 15:50:00+09:00)
+2023-10-23 15:50:12,841 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 16:00:00 KST)" executed successfully
+2023-10-23 15:55:00,014 - DEBUG - Looking for jobs to run
+2023-10-23 15:55:00,014 - DEBUG - Next wakeup is due at 2023-10-23 16:00:00+09:00 (in 299.985666 seconds)
+2023-10-23 15:55:00,014 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 16:05:00 KST)" (scheduled at 2023-10-23 15:55:00+09:00)
+2023-10-23 15:55:16,657 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 16:05:00 KST)" executed successfully
+2023-10-23 16:00:00,014 - DEBUG - Looking for jobs to run
+2023-10-23 16:00:00,014 - DEBUG - Next wakeup is due at 2023-10-23 16:05:00+09:00 (in 299.985326 seconds)
+2023-10-23 16:00:00,014 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 16:10:00 KST)" (scheduled at 2023-10-23 16:00:00+09:00)
+2023-10-23 16:00:05,953 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 16:10:00 KST)" executed successfully
+2023-10-23 16:05:00,011 - DEBUG - Looking for jobs to run
+2023-10-23 16:05:00,012 - DEBUG - Next wakeup is due at 2023-10-23 16:10:00+09:00 (in 299.988325 seconds)
+2023-10-23 16:05:00,012 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 16:15:00 KST)" (scheduled at 2023-10-23 16:05:00+09:00)
+2023-10-23 16:05:02,718 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 16:15:00 KST)" executed successfully
+2023-10-23 16:10:00,016 - DEBUG - Looking for jobs to run
+2023-10-23 16:10:00,016 - DEBUG - Next wakeup is due at 2023-10-23 16:15:00+09:00 (in 299.983422 seconds)
+2023-10-23 16:10:00,016 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 16:20:00 KST)" (scheduled at 2023-10-23 16:10:00+09:00)
+2023-10-23 16:10:16,973 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 16:20:00 KST)" executed successfully
+2023-10-23 16:15:00,000 - DEBUG - Looking for jobs to run
+2023-10-23 16:15:00,001 - DEBUG - Next wakeup is due at 2023-10-23 16:20:00+09:00 (in 299.998038 seconds)
+2023-10-23 16:15:00,001 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 16:25:00 KST)" (scheduled at 2023-10-23 16:15:00+09:00)
+2023-10-23 16:15:02,888 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 16:25:00 KST)" executed successfully
+2023-10-23 16:20:00,001 - DEBUG - Looking for jobs to run
+2023-10-23 16:20:00,001 - DEBUG - Next wakeup is due at 2023-10-23 16:25:00+09:00 (in 299.998166 seconds)
+2023-10-23 16:20:00,001 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 16:30:00 KST)" (scheduled at 2023-10-23 16:20:00+09:00)
+2023-10-23 16:20:09,834 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 16:30:00 KST)" executed successfully
+2023-10-23 16:25:00,002 - DEBUG - Looking for jobs to run
+2023-10-23 16:25:00,002 - DEBUG - Next wakeup is due at 2023-10-23 16:30:00+09:00 (in 299.997905 seconds)
+2023-10-23 16:25:00,002 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 16:35:00 KST)" (scheduled at 2023-10-23 16:25:00+09:00)
+2023-10-23 16:25:05,025 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 16:35:00 KST)" executed successfully
+2023-10-23 16:30:00,015 - DEBUG - Looking for jobs to run
+2023-10-23 16:30:00,015 - DEBUG - Next wakeup is due at 2023-10-23 16:35:00+09:00 (in 299.984639 seconds)
+2023-10-23 16:30:00,015 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 16:40:00 KST)" (scheduled at 2023-10-23 16:30:00+09:00)
+2023-10-23 16:30:15,546 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 16:40:00 KST)" executed successfully
+2023-10-23 16:35:00,005 - DEBUG - Looking for jobs to run
+2023-10-23 16:35:00,006 - DEBUG - Next wakeup is due at 2023-10-23 16:40:00+09:00 (in 299.993917 seconds)
+2023-10-23 16:35:00,006 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 16:45:00 KST)" (scheduled at 2023-10-23 16:35:00+09:00)
+2023-10-23 16:35:01,774 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 16:45:00 KST)" executed successfully
+2023-10-23 16:40:00,000 - DEBUG - Looking for jobs to run
+2023-10-23 16:40:00,000 - DEBUG - Next wakeup is due at 2023-10-23 16:45:00+09:00 (in 299.999166 seconds)
+2023-10-23 16:40:00,001 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 16:50:00 KST)" (scheduled at 2023-10-23 16:40:00+09:00)
+2023-10-23 16:40:15,594 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 16:50:00 KST)" executed successfully
+2023-10-23 16:45:00,013 - DEBUG - Looking for jobs to run
+2023-10-23 16:45:00,014 - DEBUG - Next wakeup is due at 2023-10-23 16:50:00+09:00 (in 299.986219 seconds)
+2023-10-23 16:45:00,014 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 16:55:00 KST)" (scheduled at 2023-10-23 16:45:00+09:00)
+2023-10-23 16:45:02,148 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 16:55:00 KST)" executed successfully
+2023-10-23 16:50:00,012 - DEBUG - Looking for jobs to run
+2023-10-23 16:50:00,012 - DEBUG - Next wakeup is due at 2023-10-23 16:55:00+09:00 (in 299.987752 seconds)
+2023-10-23 16:50:00,013 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 17:00:00 KST)" (scheduled at 2023-10-23 16:50:00+09:00)
+2023-10-23 16:50:08,046 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 17:00:00 KST)" executed successfully
+2023-10-23 16:55:00,006 - DEBUG - Looking for jobs to run
+2023-10-23 16:55:00,006 - DEBUG - Next wakeup is due at 2023-10-23 17:00:00+09:00 (in 299.993350 seconds)
+2023-10-23 16:55:00,006 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 17:05:00 KST)" (scheduled at 2023-10-23 16:55:00+09:00)
+2023-10-23 16:55:02,087 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 17:05:00 KST)" executed successfully
+2023-10-23 17:00:00,003 - DEBUG - Looking for jobs to run
+2023-10-23 17:00:00,004 - DEBUG - Next wakeup is due at 2023-10-23 17:05:00+09:00 (in 299.995618 seconds)
+2023-10-23 17:00:00,004 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 17:10:00 KST)" (scheduled at 2023-10-23 17:00:00+09:00)
+2023-10-23 17:00:09,626 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 17:10:00 KST)" executed successfully
+2023-10-23 17:05:00,006 - DEBUG - Looking for jobs to run
+2023-10-23 17:05:00,007 - DEBUG - Next wakeup is due at 2023-10-23 17:10:00+09:00 (in 299.992151 seconds)
+2023-10-23 17:05:00,008 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 17:15:00 KST)" (scheduled at 2023-10-23 17:05:00+09:00)
+2023-10-23 17:05:02,095 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 17:15:00 KST)" executed successfully
+2023-10-23 17:10:00,005 - DEBUG - Looking for jobs to run
+2023-10-23 17:10:00,006 - DEBUG - Next wakeup is due at 2023-10-23 17:15:00+09:00 (in 299.993509 seconds)
+2023-10-23 17:10:00,006 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 17:20:00 KST)" (scheduled at 2023-10-23 17:10:00+09:00)
+2023-10-23 17:10:04,067 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 17:20:00 KST)" executed successfully
+2023-10-23 17:15:00,009 - DEBUG - Looking for jobs to run
+2023-10-23 17:15:00,009 - DEBUG - Next wakeup is due at 2023-10-23 17:20:00+09:00 (in 299.990556 seconds)
+2023-10-23 17:15:00,010 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 17:25:00 KST)" (scheduled at 2023-10-23 17:15:00+09:00)
+2023-10-23 17:15:22,592 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 17:25:00 KST)" executed successfully
+2023-10-23 17:20:00,006 - DEBUG - Looking for jobs to run
+2023-10-23 17:20:00,006 - DEBUG - Next wakeup is due at 2023-10-23 17:25:00+09:00 (in 299.993271 seconds)
+2023-10-23 17:20:00,006 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 17:30:00 KST)" (scheduled at 2023-10-23 17:20:00+09:00)
+2023-10-23 17:20:13,327 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 17:30:00 KST)" executed successfully
+2023-10-23 17:25:00,006 - DEBUG - Looking for jobs to run
+2023-10-23 17:25:00,006 - DEBUG - Next wakeup is due at 2023-10-23 17:30:00+09:00 (in 299.993181 seconds)
+2023-10-23 17:25:00,006 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 17:35:00 KST)" (scheduled at 2023-10-23 17:25:00+09:00)
+2023-10-23 17:25:02,073 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-10-23 17:35:00 KST)" executed successfully
+2023-10-23 17:30:00,007 - DEBUG - Looking for jobs to run
+2023-10-23 17:30:00,007 - DEBUG - Next wakeup is due at 2023-10-23 17:35:00+09:00 (in 299.992789 seconds)
+2023-10-23 17:30:00,007 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 17:40:00 KST)" (scheduled at 2023-10-23 17:30:00+09:00)
+2023-10-23 17:30:09,765 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-10-23 17:40:00 KST)" executed successfully
+2023-11-01 17:07:22,334 - DEBUG - 디버그 메시지입니다.
+2023-11-01 17:07:22,334 - INFO - 정보 메시지입니다.
+2023-11-01 17:07:22,334 - WARNING - 경고 메시지입니다.
+2023-11-01 17:07:22,334 - ERROR - 에러 메시지입니다.
+2023-11-01 17:07:22,335 - CRITICAL - 심각한 오류 메시지입니다.
+2023-11-01 17:07:22,335 - DEBUG - Looking up time zone info from registry
+2023-11-01 17:07:22,353 - INFO - Scheduler started
+2023-11-01 17:07:22,355 - DEBUG - Looking for jobs to run
+2023-11-01 17:07:22,355 - DEBUG - No jobs; waiting until a job is added
+2023-11-01 17:07:22,360 - INFO - Added job "ThreadRead.thread_function" to job store "default"
+2023-11-01 17:07:22,360 - INFO - Added job "ThreadRead.thread_function" to job store "default"
+2023-11-01 17:07:22,360 - DEBUG - Looking for jobs to run
+2023-11-01 17:07:22,361 - INFO - Added job "ThreadRead.thread_function" to job store "default"
+2023-11-01 17:07:22,361 - DEBUG - Next wakeup is due at 2023-11-01 17:10:00+09:00 (in 157.638931 seconds)
+2023-11-01 17:07:22,361 - INFO - Added job "ThreadRead.thread_function" to job store "default"
+2023-11-01 17:07:22,361 - DEBUG - Looking for jobs to run
+2023-11-01 17:07:22,362 - INFO - Added job "ThreadRead.thread_function" to job store "default"
+2023-11-01 17:07:22,362 - DEBUG - Next wakeup is due at 2023-11-01 17:10:00+09:00 (in 157.637931 seconds)
+2023-11-01 17:07:22,362 - DEBUG - Looking for jobs to run
+2023-11-01 17:07:22,362 - DEBUG - Next wakeup is due at 2023-11-01 17:10:00+09:00 (in 157.637931 seconds)
+2023-11-01 17:10:00,012 - DEBUG - Looking for jobs to run
+2023-11-01 17:10:00,012 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 17:10:00 KST)" (scheduled at 2023-11-01 17:10:00+09:00)
+2023-11-01 17:10:00,013 - DEBUG - Next wakeup is due at 2023-11-01 17:15:00+09:00 (in 299.986799 seconds)
+2023-11-01 17:10:19,913 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 17:20:00 KST)" executed successfully
+2023-11-01 17:15:00,002 - DEBUG - Looking for jobs to run
+2023-11-01 17:15:00,004 - DEBUG - Next wakeup is due at 2023-11-01 17:20:00+09:00 (in 299.996124 seconds)
+2023-11-01 17:15:00,004 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 17:25:00 KST)" (scheduled at 2023-11-01 17:15:00+09:00)
+2023-11-01 17:15:03,037 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 17:25:00 KST)" executed successfully
+2023-11-01 17:20:00,016 - DEBUG - Looking for jobs to run
+2023-11-01 17:20:00,016 - DEBUG - Next wakeup is due at 2023-11-01 17:25:00+09:00 (in 299.983355 seconds)
+2023-11-01 17:20:00,016 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 17:30:00 KST)" (scheduled at 2023-11-01 17:20:00+09:00)
+2023-11-01 17:20:21,540 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 17:30:00 KST)" executed successfully
+2023-11-01 17:25:00,004 - DEBUG - Looking for jobs to run
+2023-11-01 17:25:00,004 - DEBUG - Next wakeup is due at 2023-11-01 17:30:00+09:00 (in 299.995329 seconds)
+2023-11-01 17:25:00,004 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 17:35:00 KST)" (scheduled at 2023-11-01 17:25:00+09:00)
+2023-11-01 17:25:06,708 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 17:35:00 KST)" executed successfully
+2023-11-01 17:30:00,009 - DEBUG - Looking for jobs to run
+2023-11-01 17:30:00,010 - DEBUG - Next wakeup is due at 2023-11-01 17:35:00+09:00 (in 299.989575 seconds)
+2023-11-01 17:30:00,010 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 17:40:00 KST)" (scheduled at 2023-11-01 17:30:00+09:00)
+2023-11-01 17:30:07,310 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 17:40:00 KST)" executed successfully
+2023-11-01 17:35:00,013 - DEBUG - Looking for jobs to run
+2023-11-01 17:35:00,013 - DEBUG - Next wakeup is due at 2023-11-01 17:40:00+09:00 (in 299.986892 seconds)
+2023-11-01 17:35:00,013 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 17:45:00 KST)" (scheduled at 2023-11-01 17:35:00+09:00)
+2023-11-01 17:35:18,702 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 17:45:00 KST)" executed successfully
+2023-11-01 17:40:00,008 - DEBUG - Looking for jobs to run
+2023-11-01 17:40:00,009 - DEBUG - Next wakeup is due at 2023-11-01 17:45:00+09:00 (in 299.990174 seconds)
+2023-11-01 17:40:00,009 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 17:50:00 KST)" (scheduled at 2023-11-01 17:40:00+09:00)
+2023-11-01 17:40:01,548 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 17:50:00 KST)" executed successfully
+2023-11-01 17:45:00,007 - DEBUG - Looking for jobs to run
+2023-11-01 17:45:00,008 - DEBUG - Next wakeup is due at 2023-11-01 17:50:00+09:00 (in 299.991370 seconds)
+2023-11-01 17:45:00,008 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 17:55:00 KST)" (scheduled at 2023-11-01 17:45:00+09:00)
+2023-11-01 17:45:31,726 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 17:55:00 KST)" executed successfully
+2023-11-01 17:50:00,005 - DEBUG - Looking for jobs to run
+2023-11-01 17:50:00,006 - DEBUG - Next wakeup is due at 2023-11-01 17:55:00+09:00 (in 299.994339 seconds)
+2023-11-01 17:50:00,006 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 18:00:00 KST)" (scheduled at 2023-11-01 17:50:00+09:00)
+2023-11-01 17:50:27,517 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 18:00:00 KST)" executed successfully
+2023-11-01 17:55:00,004 - DEBUG - Looking for jobs to run
+2023-11-01 17:55:00,005 - DEBUG - Next wakeup is due at 2023-11-01 18:00:00+09:00 (in 299.994100 seconds)
+2023-11-01 17:55:00,005 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 18:05:00 KST)" (scheduled at 2023-11-01 17:55:00+09:00)
+2023-11-01 17:55:05,636 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 18:05:00 KST)" executed successfully
+2023-11-01 18:00:00,011 - DEBUG - Looking for jobs to run
+2023-11-01 18:00:00,011 - DEBUG - Next wakeup is due at 2023-11-01 18:05:00+09:00 (in 299.988005 seconds)
+2023-11-01 18:00:00,011 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 18:10:00 KST)" (scheduled at 2023-11-01 18:00:00+09:00)
+2023-11-01 18:00:18,691 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 18:10:00 KST)" executed successfully
+2023-11-01 18:05:00,013 - DEBUG - Looking for jobs to run
+2023-11-01 18:05:00,013 - DEBUG - Next wakeup is due at 2023-11-01 18:10:00+09:00 (in 299.986906 seconds)
+2023-11-01 18:05:00,014 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 18:15:00 KST)" (scheduled at 2023-11-01 18:05:00+09:00)
+2023-11-01 18:05:04,953 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 18:15:00 KST)" executed successfully
+2023-11-01 18:10:00,015 - DEBUG - Looking for jobs to run
+2023-11-01 18:10:00,015 - DEBUG - Next wakeup is due at 2023-11-01 18:15:00+09:00 (in 299.984251 seconds)
+2023-11-01 18:10:00,016 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 18:20:00 KST)" (scheduled at 2023-11-01 18:10:00+09:00)
+2023-11-01 18:10:01,731 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 18:20:00 KST)" executed successfully
+2023-11-01 18:15:00,008 - DEBUG - Looking for jobs to run
+2023-11-01 18:15:00,009 - DEBUG - Next wakeup is due at 2023-11-01 18:20:00+09:00 (in 299.990229 seconds)
+2023-11-01 18:15:00,009 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 18:25:00 KST)" (scheduled at 2023-11-01 18:15:00+09:00)
+2023-11-01 18:15:03,725 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 18:25:00 KST)" executed successfully
+2023-11-01 18:20:00,001 - DEBUG - Looking for jobs to run
+2023-11-01 18:20:00,001 - DEBUG - Next wakeup is due at 2023-11-01 18:25:00+09:00 (in 299.998732 seconds)
+2023-11-01 18:20:00,002 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 18:30:00 KST)" (scheduled at 2023-11-01 18:20:00+09:00)
+2023-11-01 18:20:07,086 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 18:30:00 KST)" executed successfully
+2023-11-01 18:25:00,008 - DEBUG - Looking for jobs to run
+2023-11-01 18:25:00,009 - DEBUG - Next wakeup is due at 2023-11-01 18:30:00+09:00 (in 299.990225 seconds)
+2023-11-01 18:25:00,009 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 18:35:00 KST)" (scheduled at 2023-11-01 18:25:00+09:00)
+2023-11-01 18:25:05,090 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 18:35:00 KST)" executed successfully
+2023-11-01 18:30:00,001 - DEBUG - Looking for jobs to run
+2023-11-01 18:30:00,001 - DEBUG - Next wakeup is due at 2023-11-01 18:35:00+09:00 (in 299.998073 seconds)
+2023-11-01 18:30:00,001 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 18:40:00 KST)" (scheduled at 2023-11-01 18:30:00+09:00)
+2023-11-01 18:30:10,176 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 18:40:00 KST)" executed successfully
+2023-11-01 18:35:00,012 - DEBUG - Looking for jobs to run
+2023-11-01 18:35:00,012 - DEBUG - Next wakeup is due at 2023-11-01 18:40:00+09:00 (in 299.987731 seconds)
+2023-11-01 18:35:00,013 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 18:45:00 KST)" (scheduled at 2023-11-01 18:35:00+09:00)
+2023-11-01 18:35:07,344 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 18:45:00 KST)" executed successfully
+2023-11-01 18:40:00,013 - DEBUG - Looking for jobs to run
+2023-11-01 18:40:00,013 - DEBUG - Next wakeup is due at 2023-11-01 18:45:00+09:00 (in 299.986149 seconds)
+2023-11-01 18:40:00,013 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 18:50:00 KST)" (scheduled at 2023-11-01 18:40:00+09:00)
+2023-11-01 18:40:02,137 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 18:50:00 KST)" executed successfully
+2023-11-01 18:45:00,011 - DEBUG - Looking for jobs to run
+2023-11-01 18:45:00,011 - DEBUG - Next wakeup is due at 2023-11-01 18:50:00+09:00 (in 299.988314 seconds)
+2023-11-01 18:45:00,012 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 18:55:00 KST)" (scheduled at 2023-11-01 18:45:00+09:00)
+2023-11-01 18:45:01,717 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 18:55:00 KST)" executed successfully
+2023-11-01 18:50:00,015 - DEBUG - Looking for jobs to run
+2023-11-01 18:50:00,015 - DEBUG - Next wakeup is due at 2023-11-01 18:55:00+09:00 (in 299.984754 seconds)
+2023-11-01 18:50:00,015 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 19:00:00 KST)" (scheduled at 2023-11-01 18:50:00+09:00)
+2023-11-01 18:50:26,053 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 19:00:00 KST)" executed successfully
+2023-11-01 18:55:00,008 - DEBUG - Looking for jobs to run
+2023-11-01 18:55:00,009 - DEBUG - Next wakeup is due at 2023-11-01 19:00:00+09:00 (in 299.990191 seconds)
+2023-11-01 18:55:00,009 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 19:05:00 KST)" (scheduled at 2023-11-01 18:55:00+09:00)
+2023-11-01 18:55:17,289 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 19:05:00 KST)" executed successfully
+2023-11-01 19:00:00,007 - DEBUG - Looking for jobs to run
+2023-11-01 19:00:00,008 - DEBUG - Next wakeup is due at 2023-11-01 19:05:00+09:00 (in 299.991360 seconds)
+2023-11-01 19:00:00,008 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 19:10:00 KST)" (scheduled at 2023-11-01 19:00:00+09:00)
+2023-11-01 19:00:08,578 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 19:10:00 KST)" executed successfully
+2023-11-01 19:05:00,010 - DEBUG - Looking for jobs to run
+2023-11-01 19:05:00,010 - DEBUG - Next wakeup is due at 2023-11-01 19:10:00+09:00 (in 299.989927 seconds)
+2023-11-01 19:05:00,011 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 19:15:00 KST)" (scheduled at 2023-11-01 19:05:00+09:00)
+2023-11-01 19:05:11,581 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 19:15:00 KST)" executed successfully
+2023-11-01 19:10:00,013 - DEBUG - Looking for jobs to run
+2023-11-01 19:10:00,013 - DEBUG - Next wakeup is due at 2023-11-01 19:15:00+09:00 (in 299.986355 seconds)
+2023-11-01 19:10:00,013 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 19:20:00 KST)" (scheduled at 2023-11-01 19:10:00+09:00)
+2023-11-01 19:10:06,097 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 19:20:00 KST)" executed successfully
+2023-11-01 19:15:00,011 - DEBUG - Looking for jobs to run
+2023-11-01 19:15:00,011 - DEBUG - Next wakeup is due at 2023-11-01 19:20:00+09:00 (in 299.988139 seconds)
+2023-11-01 19:15:00,012 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 19:25:00 KST)" (scheduled at 2023-11-01 19:15:00+09:00)
+2023-11-01 19:15:18,155 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 19:25:00 KST)" executed successfully
+2023-11-01 19:20:00,015 - DEBUG - Looking for jobs to run
+2023-11-01 19:20:00,015 - DEBUG - Next wakeup is due at 2023-11-01 19:25:00+09:00 (in 299.984748 seconds)
+2023-11-01 19:20:00,015 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 19:30:00 KST)" (scheduled at 2023-11-01 19:20:00+09:00)
+2023-11-01 19:20:03,767 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 19:30:00 KST)" executed successfully
+2023-11-01 19:25:00,004 - DEBUG - Looking for jobs to run
+2023-11-01 19:25:00,005 - DEBUG - Next wakeup is due at 2023-11-01 19:30:00+09:00 (in 299.995479 seconds)
+2023-11-01 19:25:00,005 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 19:35:00 KST)" (scheduled at 2023-11-01 19:25:00+09:00)
+2023-11-01 19:25:13,719 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 19:35:00 KST)" executed successfully
+2023-11-01 19:30:00,014 - DEBUG - Looking for jobs to run
+2023-11-01 19:30:00,015 - DEBUG - Next wakeup is due at 2023-11-01 19:35:00+09:00 (in 299.985540 seconds)
+2023-11-01 19:30:00,015 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 19:40:00 KST)" (scheduled at 2023-11-01 19:30:00+09:00)
+2023-11-01 19:30:15,554 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 19:40:00 KST)" executed successfully
+2023-11-01 19:35:00,009 - DEBUG - Looking for jobs to run
+2023-11-01 19:35:00,010 - DEBUG - Next wakeup is due at 2023-11-01 19:40:00+09:00 (in 299.989742 seconds)
+2023-11-01 19:35:00,010 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 19:45:00 KST)" (scheduled at 2023-11-01 19:35:00+09:00)
+2023-11-01 19:35:01,710 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 19:45:00 KST)" executed successfully
+2023-11-01 19:40:00,005 - DEBUG - Looking for jobs to run
+2023-11-01 19:40:00,006 - DEBUG - Next wakeup is due at 2023-11-01 19:45:00+09:00 (in 299.994508 seconds)
+2023-11-01 19:40:00,006 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 19:50:00 KST)" (scheduled at 2023-11-01 19:40:00+09:00)
+2023-11-01 19:40:29,672 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 19:50:00 KST)" executed successfully
+2023-11-01 19:45:00,014 - DEBUG - Looking for jobs to run
+2023-11-01 19:45:00,014 - DEBUG - Next wakeup is due at 2023-11-01 19:50:00+09:00 (in 299.985203 seconds)
+2023-11-01 19:45:00,014 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 19:55:00 KST)" (scheduled at 2023-11-01 19:45:00+09:00)
+2023-11-01 19:45:07,768 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 19:55:00 KST)" executed successfully
+2023-11-01 19:50:00,003 - DEBUG - Looking for jobs to run
+2023-11-01 19:50:00,003 - DEBUG - Next wakeup is due at 2023-11-01 19:55:00+09:00 (in 299.996621 seconds)
+2023-11-01 19:50:00,004 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 20:00:00 KST)" (scheduled at 2023-11-01 19:50:00+09:00)
+2023-11-01 19:50:23,589 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 20:00:00 KST)" executed successfully
+2023-11-01 19:55:00,007 - DEBUG - Looking for jobs to run
+2023-11-01 19:55:00,008 - DEBUG - Next wakeup is due at 2023-11-01 20:00:00+09:00 (in 299.991604 seconds)
+2023-11-01 19:55:00,008 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 20:05:00 KST)" (scheduled at 2023-11-01 19:55:00+09:00)
+2023-11-01 19:55:02,510 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 20:05:00 KST)" executed successfully
+2023-11-01 20:00:00,014 - DEBUG - Looking for jobs to run
+2023-11-01 20:00:00,015 - DEBUG - Next wakeup is due at 2023-11-01 20:05:00+09:00 (in 299.984753 seconds)
+2023-11-01 20:00:00,015 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 20:10:00 KST)" (scheduled at 2023-11-01 20:00:00+09:00)
+2023-11-01 20:01:08,582 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 20:10:00 KST)" executed successfully
+2023-11-01 20:05:00,011 - DEBUG - Looking for jobs to run
+2023-11-01 20:05:00,011 - DEBUG - Next wakeup is due at 2023-11-01 20:10:00+09:00 (in 299.988753 seconds)
+2023-11-01 20:05:00,012 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 20:15:00 KST)" (scheduled at 2023-11-01 20:05:00+09:00)
+2023-11-01 20:05:01,639 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 20:15:00 KST)" executed successfully
+2023-11-01 20:10:00,008 - DEBUG - Looking for jobs to run
+2023-11-01 20:10:00,008 - DEBUG - Next wakeup is due at 2023-11-01 20:15:00+09:00 (in 299.991440 seconds)
+2023-11-01 20:10:00,008 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 20:20:00 KST)" (scheduled at 2023-11-01 20:10:00+09:00)
+2023-11-01 20:10:08,539 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 20:20:00 KST)" executed successfully
+2023-11-01 20:15:00,008 - DEBUG - Looking for jobs to run
+2023-11-01 20:15:00,008 - DEBUG - Next wakeup is due at 2023-11-01 20:20:00+09:00 (in 299.991261 seconds)
+2023-11-01 20:15:00,008 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 20:25:00 KST)" (scheduled at 2023-11-01 20:15:00+09:00)
+2023-11-01 20:15:02,049 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 20:25:00 KST)" executed successfully
+2023-11-01 20:20:00,016 - DEBUG - Looking for jobs to run
+2023-11-01 20:20:00,016 - DEBUG - Next wakeup is due at 2023-11-01 20:25:00+09:00 (in 299.983642 seconds)
+2023-11-01 20:20:00,017 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 20:30:00 KST)" (scheduled at 2023-11-01 20:20:00+09:00)
+2023-11-01 20:20:01,761 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 20:30:00 KST)" executed successfully
+2023-11-01 20:25:00,007 - DEBUG - Looking for jobs to run
+2023-11-01 20:25:00,007 - DEBUG - Next wakeup is due at 2023-11-01 20:30:00+09:00 (in 299.992431 seconds)
+2023-11-01 20:25:00,007 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 20:35:00 KST)" (scheduled at 2023-11-01 20:25:00+09:00)
+2023-11-01 20:25:02,740 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 20:35:00 KST)" executed successfully
+2023-11-01 20:30:00,000 - DEBUG - Looking for jobs to run
+2023-11-01 20:30:00,001 - DEBUG - Next wakeup is due at 2023-11-01 20:35:00+09:00 (in 299.998036 seconds)
+2023-11-01 20:30:00,001 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 20:40:00 KST)" (scheduled at 2023-11-01 20:30:00+09:00)
+2023-11-01 20:30:05,315 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 20:40:00 KST)" executed successfully
+2023-11-01 20:35:00,001 - DEBUG - Looking for jobs to run
+2023-11-01 20:35:00,002 - DEBUG - Next wakeup is due at 2023-11-01 20:40:00+09:00 (in 299.997454 seconds)
+2023-11-01 20:35:00,002 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 20:45:00 KST)" (scheduled at 2023-11-01 20:35:00+09:00)
+2023-11-01 20:35:02,413 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 20:45:00 KST)" executed successfully
+2023-11-01 20:40:00,013 - DEBUG - Looking for jobs to run
+2023-11-01 20:40:00,013 - DEBUG - Next wakeup is due at 2023-11-01 20:45:00+09:00 (in 299.986168 seconds)
+2023-11-01 20:40:00,013 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 20:50:00 KST)" (scheduled at 2023-11-01 20:40:00+09:00)
+2023-11-01 20:40:15,891 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 20:50:00 KST)" executed successfully
+2023-11-01 20:45:00,002 - DEBUG - Looking for jobs to run
+2023-11-01 20:45:00,003 - DEBUG - Next wakeup is due at 2023-11-01 20:50:00+09:00 (in 299.996680 seconds)
+2023-11-01 20:45:00,003 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 20:55:00 KST)" (scheduled at 2023-11-01 20:45:00+09:00)
+2023-11-01 20:45:02,414 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 20:55:00 KST)" executed successfully
+2023-11-01 20:50:00,012 - DEBUG - Looking for jobs to run
+2023-11-01 20:50:00,012 - DEBUG - Next wakeup is due at 2023-11-01 20:55:00+09:00 (in 299.987629 seconds)
+2023-11-01 20:50:00,012 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 21:00:00 KST)" (scheduled at 2023-11-01 20:50:00+09:00)
+2023-11-01 20:50:04,737 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 21:00:00 KST)" executed successfully
+2023-11-01 20:55:00,012 - DEBUG - Looking for jobs to run
+2023-11-01 20:55:00,013 - DEBUG - Next wakeup is due at 2023-11-01 21:00:00+09:00 (in 299.987739 seconds)
+2023-11-01 20:55:00,013 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 21:05:00 KST)" (scheduled at 2023-11-01 20:55:00+09:00)
+2023-11-01 20:55:04,168 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 21:05:00 KST)" executed successfully
+2023-11-01 21:00:00,001 - DEBUG - Looking for jobs to run
+2023-11-01 21:00:00,002 - DEBUG - Next wakeup is due at 2023-11-01 21:05:00+09:00 (in 299.997714 seconds)
+2023-11-01 21:00:00,002 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 21:10:00 KST)" (scheduled at 2023-11-01 21:00:00+09:00)
+2023-11-01 21:00:11,864 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 21:10:00 KST)" executed successfully
+2023-11-01 21:05:00,009 - DEBUG - Looking for jobs to run
+2023-11-01 21:05:00,010 - DEBUG - Next wakeup is due at 2023-11-01 21:10:00+09:00 (in 299.990355 seconds)
+2023-11-01 21:05:00,010 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 21:15:00 KST)" (scheduled at 2023-11-01 21:05:00+09:00)
+2023-11-01 21:05:04,941 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 21:15:00 KST)" executed successfully
+2023-11-01 21:10:00,001 - DEBUG - Looking for jobs to run
+2023-11-01 21:10:00,001 - DEBUG - Next wakeup is due at 2023-11-01 21:15:00+09:00 (in 299.998329 seconds)
+2023-11-01 21:10:00,001 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 21:20:00 KST)" (scheduled at 2023-11-01 21:10:00+09:00)
+2023-11-01 21:10:05,153 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 21:20:00 KST)" executed successfully
+2023-11-01 21:15:00,014 - DEBUG - Looking for jobs to run
+2023-11-01 21:15:00,015 - DEBUG - Next wakeup is due at 2023-11-01 21:20:00+09:00 (in 299.984129 seconds)
+2023-11-01 21:15:00,015 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 21:25:00 KST)" (scheduled at 2023-11-01 21:15:00+09:00)
+2023-11-01 21:15:19,549 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 21:25:00 KST)" executed successfully
+2023-11-01 21:20:00,006 - DEBUG - Looking for jobs to run
+2023-11-01 21:20:00,006 - DEBUG - Next wakeup is due at 2023-11-01 21:25:00+09:00 (in 299.993723 seconds)
+2023-11-01 21:20:00,006 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 21:30:00 KST)" (scheduled at 2023-11-01 21:20:00+09:00)
+2023-11-01 21:20:01,500 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 21:30:00 KST)" executed successfully
+2023-11-01 21:25:00,008 - DEBUG - Looking for jobs to run
+2023-11-01 21:25:00,008 - DEBUG - Next wakeup is due at 2023-11-01 21:30:00+09:00 (in 299.991091 seconds)
+2023-11-01 21:25:00,009 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 21:35:00 KST)" (scheduled at 2023-11-01 21:25:00+09:00)
+2023-11-01 21:25:02,100 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 21:35:00 KST)" executed successfully
+2023-11-01 21:30:00,016 - DEBUG - Looking for jobs to run
+2023-11-01 21:30:00,016 - DEBUG - Next wakeup is due at 2023-11-01 21:35:00+09:00 (in 299.983992 seconds)
+2023-11-01 21:30:00,016 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 21:40:00 KST)" (scheduled at 2023-11-01 21:30:00+09:00)
+2023-11-01 21:30:02,069 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 21:40:00 KST)" executed successfully
+2023-11-01 21:35:00,011 - DEBUG - Looking for jobs to run
+2023-11-01 21:35:00,011 - DEBUG - Next wakeup is due at 2023-11-01 21:40:00+09:00 (in 299.988319 seconds)
+2023-11-01 21:35:00,011 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 21:45:00 KST)" (scheduled at 2023-11-01 21:35:00+09:00)
+2023-11-01 21:35:02,888 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 21:45:00 KST)" executed successfully
+2023-11-01 21:40:00,014 - DEBUG - Looking for jobs to run
+2023-11-01 21:40:00,015 - DEBUG - Next wakeup is due at 2023-11-01 21:45:00+09:00 (in 299.984834 seconds)
+2023-11-01 21:40:00,015 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 21:50:00 KST)" (scheduled at 2023-11-01 21:40:00+09:00)
+2023-11-01 21:40:01,871 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 21:50:00 KST)" executed successfully
+2023-11-01 21:45:00,004 - DEBUG - Looking for jobs to run
+2023-11-01 21:45:00,005 - DEBUG - Next wakeup is due at 2023-11-01 21:50:00+09:00 (in 299.994183 seconds)
+2023-11-01 21:45:00,005 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 21:55:00 KST)" (scheduled at 2023-11-01 21:45:00+09:00)
+2023-11-01 21:45:03,747 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 21:55:00 KST)" executed successfully
+2023-11-01 21:50:00,006 - DEBUG - Looking for jobs to run
+2023-11-01 21:50:00,006 - DEBUG - Next wakeup is due at 2023-11-01 21:55:00+09:00 (in 299.993748 seconds)
+2023-11-01 21:50:00,006 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 22:00:00 KST)" (scheduled at 2023-11-01 21:50:00+09:00)
+2023-11-01 21:50:21,021 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 22:00:00 KST)" executed successfully
+2023-11-01 21:55:00,014 - DEBUG - Looking for jobs to run
+2023-11-01 21:55:00,014 - DEBUG - Next wakeup is due at 2023-11-01 22:00:00+09:00 (in 299.985033 seconds)
+2023-11-01 21:55:00,014 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 22:05:00 KST)" (scheduled at 2023-11-01 21:55:00+09:00)
+2023-11-01 21:55:01,612 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 22:05:00 KST)" executed successfully
+2023-11-01 22:00:00,004 - DEBUG - Looking for jobs to run
+2023-11-01 22:00:00,005 - DEBUG - Next wakeup is due at 2023-11-01 22:05:00+09:00 (in 299.994590 seconds)
+2023-11-01 22:00:00,005 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 22:10:00 KST)" (scheduled at 2023-11-01 22:00:00+09:00)
+2023-11-01 22:00:01,663 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 22:10:00 KST)" executed successfully
+2023-11-01 22:05:00,007 - DEBUG - Looking for jobs to run
+2023-11-01 22:05:00,008 - DEBUG - Next wakeup is due at 2023-11-01 22:10:00+09:00 (in 299.991867 seconds)
+2023-11-01 22:05:00,008 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 22:15:00 KST)" (scheduled at 2023-11-01 22:05:00+09:00)
+2023-11-01 22:05:13,648 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 22:15:00 KST)" executed successfully
+2023-11-01 22:10:00,006 - DEBUG - Looking for jobs to run
+2023-11-01 22:10:00,006 - DEBUG - Next wakeup is due at 2023-11-01 22:15:00+09:00 (in 299.993389 seconds)
+2023-11-01 22:10:00,007 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 22:20:00 KST)" (scheduled at 2023-11-01 22:10:00+09:00)
+2023-11-01 22:10:03,973 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 22:20:00 KST)" executed successfully
+2023-11-01 22:15:00,005 - DEBUG - Looking for jobs to run
+2023-11-01 22:15:00,006 - DEBUG - Next wakeup is due at 2023-11-01 22:20:00+09:00 (in 299.993044 seconds)
+2023-11-01 22:15:00,006 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 22:25:00 KST)" (scheduled at 2023-11-01 22:15:00+09:00)
+2023-11-01 22:15:04,351 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 22:25:00 KST)" executed successfully
+2023-11-01 22:20:00,007 - DEBUG - Looking for jobs to run
+2023-11-01 22:20:00,007 - DEBUG - Next wakeup is due at 2023-11-01 22:25:00+09:00 (in 299.992305 seconds)
+2023-11-01 22:20:00,007 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 22:30:00 KST)" (scheduled at 2023-11-01 22:20:00+09:00)
+2023-11-01 22:20:01,434 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 22:30:00 KST)" executed successfully
+2023-11-01 22:25:00,001 - DEBUG - Looking for jobs to run
+2023-11-01 22:25:00,001 - DEBUG - Next wakeup is due at 2023-11-01 22:30:00+09:00 (in 299.998194 seconds)
+2023-11-01 22:25:00,002 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 22:35:00 KST)" (scheduled at 2023-11-01 22:25:00+09:00)
+2023-11-01 22:25:09,446 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 22:35:00 KST)" executed successfully
+2023-11-01 22:30:00,012 - DEBUG - Looking for jobs to run
+2023-11-01 22:30:00,012 - DEBUG - Next wakeup is due at 2023-11-01 22:35:00+09:00 (in 299.987740 seconds)
+2023-11-01 22:30:00,012 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 22:40:00 KST)" (scheduled at 2023-11-01 22:30:00+09:00)
+2023-11-01 22:30:07,177 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 22:40:00 KST)" executed successfully
+2023-11-01 22:35:00,009 - DEBUG - Looking for jobs to run
+2023-11-01 22:35:00,009 - DEBUG - Next wakeup is due at 2023-11-01 22:40:00+09:00 (in 299.990566 seconds)
+2023-11-01 22:35:00,009 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 22:45:00 KST)" (scheduled at 2023-11-01 22:35:00+09:00)
+2023-11-01 22:35:03,922 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 22:45:00 KST)" executed successfully
+2023-11-01 22:40:00,006 - DEBUG - Looking for jobs to run
+2023-11-01 22:40:00,006 - DEBUG - Next wakeup is due at 2023-11-01 22:45:00+09:00 (in 299.993838 seconds)
+2023-11-01 22:40:00,006 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 22:50:00 KST)" (scheduled at 2023-11-01 22:40:00+09:00)
+2023-11-01 22:40:06,543 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 22:50:00 KST)" executed successfully
+2023-11-01 22:45:00,015 - DEBUG - Looking for jobs to run
+2023-11-01 22:45:00,015 - DEBUG - Next wakeup is due at 2023-11-01 22:50:00+09:00 (in 299.984852 seconds)
+2023-11-01 22:45:00,015 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 22:55:00 KST)" (scheduled at 2023-11-01 22:45:00+09:00)
+2023-11-01 22:45:26,382 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 22:55:00 KST)" executed successfully
+2023-11-01 22:50:00,012 - DEBUG - Looking for jobs to run
+2023-11-01 22:50:00,012 - DEBUG - Next wakeup is due at 2023-11-01 22:55:00+09:00 (in 299.987878 seconds)
+2023-11-01 22:50:00,012 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 23:00:00 KST)" (scheduled at 2023-11-01 22:50:00+09:00)
+2023-11-01 22:50:14,325 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 23:00:00 KST)" executed successfully
+2023-11-01 22:55:00,012 - DEBUG - Looking for jobs to run
+2023-11-01 22:55:00,012 - DEBUG - Next wakeup is due at 2023-11-01 23:00:00+09:00 (in 299.987046 seconds)
+2023-11-01 22:55:00,012 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 23:05:00 KST)" (scheduled at 2023-11-01 22:55:00+09:00)
+2023-11-01 22:55:01,551 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 23:05:00 KST)" executed successfully
+2023-11-01 23:00:00,012 - DEBUG - Looking for jobs to run
+2023-11-01 23:00:00,013 - DEBUG - Next wakeup is due at 2023-11-01 23:05:00+09:00 (in 299.986244 seconds)
+2023-11-01 23:00:00,013 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 23:10:00 KST)" (scheduled at 2023-11-01 23:00:00+09:00)
+2023-11-01 23:00:29,708 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 23:10:00 KST)" executed successfully
+2023-11-01 23:05:00,005 - DEBUG - Looking for jobs to run
+2023-11-01 23:05:00,005 - DEBUG - Next wakeup is due at 2023-11-01 23:10:00+09:00 (in 299.994539 seconds)
+2023-11-01 23:05:00,005 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 23:15:00 KST)" (scheduled at 2023-11-01 23:05:00+09:00)
+2023-11-01 23:10:00,005 - DEBUG - Looking for jobs to run
+2023-11-01 23:10:00,006 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 23:10:00 KST)" (scheduled at 2023-11-01 23:10:00+09:00)
+2023-11-01 23:10:00,007 - DEBUG - Next wakeup is due at 2023-11-01 23:15:00+09:00 (in 299.992284 seconds)
+2023-11-01 23:10:25,846 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 23:20:00 KST)" executed successfully
+2023-11-01 23:15:00,009 - DEBUG - Looking for jobs to run
+2023-11-01 23:15:00,010 - DEBUG - Next wakeup is due at 2023-11-01 23:20:00+09:00 (in 299.990369 seconds)
+2023-11-01 23:15:00,010 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 23:25:00 KST)" (scheduled at 2023-11-01 23:15:00+09:00)
+2023-11-01 23:15:25,865 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 23:25:00 KST)" executed successfully
+2023-11-01 23:20:00,009 - DEBUG - Looking for jobs to run
+2023-11-01 23:20:00,010 - DEBUG - Next wakeup is due at 2023-11-01 23:25:00+09:00 (in 299.989646 seconds)
+2023-11-01 23:20:00,010 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 23:30:00 KST)" (scheduled at 2023-11-01 23:20:00+09:00)
+2023-11-01 23:20:19,369 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 23:30:00 KST)" executed successfully
+2023-11-01 23:25:00,007 - DEBUG - Looking for jobs to run
+2023-11-01 23:25:00,007 - DEBUG - Next wakeup is due at 2023-11-01 23:30:00+09:00 (in 299.992256 seconds)
+2023-11-01 23:25:00,008 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 23:35:00 KST)" (scheduled at 2023-11-01 23:25:00+09:00)
+2023-11-01 23:25:02,454 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 23:35:00 KST)" executed successfully
+2023-11-01 23:30:00,010 - DEBUG - Looking for jobs to run
+2023-11-01 23:30:00,011 - DEBUG - Next wakeup is due at 2023-11-01 23:35:00+09:00 (in 299.988042 seconds)
+2023-11-01 23:30:00,011 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 23:40:00 KST)" (scheduled at 2023-11-01 23:30:00+09:00)
+2023-11-01 23:30:26,186 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 23:40:00 KST)" executed successfully
+2023-11-01 23:35:00,003 - DEBUG - Looking for jobs to run
+2023-11-01 23:35:00,003 - DEBUG - Next wakeup is due at 2023-11-01 23:40:00+09:00 (in 299.996836 seconds)
+2023-11-01 23:35:00,003 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 23:45:00 KST)" (scheduled at 2023-11-01 23:35:00+09:00)
+2023-11-01 23:35:02,278 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 23:45:00 KST)" executed successfully
+2023-11-01 23:40:00,009 - DEBUG - Looking for jobs to run
+2023-11-01 23:40:00,009 - DEBUG - Next wakeup is due at 2023-11-01 23:45:00+09:00 (in 299.990467 seconds)
+2023-11-01 23:40:00,009 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 23:50:00 KST)" (scheduled at 2023-11-01 23:40:00+09:00)
+2023-11-01 23:40:18,740 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-01 23:50:00 KST)" executed successfully
+2023-11-01 23:45:00,015 - DEBUG - Looking for jobs to run
+2023-11-01 23:45:00,015 - DEBUG - Next wakeup is due at 2023-11-01 23:50:00+09:00 (in 299.984824 seconds)
+2023-11-01 23:45:00,015 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 23:55:00 KST)" (scheduled at 2023-11-01 23:45:00+09:00)
+2023-11-01 23:45:02,105 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-01 23:55:00 KST)" executed successfully
+2023-11-01 23:50:00,003 - DEBUG - Looking for jobs to run
+2023-11-01 23:50:00,004 - DEBUG - Next wakeup is due at 2023-11-01 23:55:00+09:00 (in 299.995818 seconds)
+2023-11-01 23:50:00,004 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 00:00:00 KST)" (scheduled at 2023-11-01 23:50:00+09:00)
+2023-11-01 23:50:01,965 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 00:00:00 KST)" executed successfully
+2023-11-01 23:55:00,003 - DEBUG - Looking for jobs to run
+2023-11-01 23:55:00,003 - DEBUG - Next wakeup is due at 2023-11-02 00:00:00+09:00 (in 299.996011 seconds)
+2023-11-01 23:55:00,003 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 00:05:00 KST)" (scheduled at 2023-11-01 23:55:00+09:00)
+2023-11-01 23:55:26,958 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 00:05:00 KST)" executed successfully
+2023-11-02 00:00:00,007 - DEBUG - Looking for jobs to run
+2023-11-02 00:00:00,007 - DEBUG - Next wakeup is due at 2023-11-02 00:05:00+09:00 (in 299.992078 seconds)
+2023-11-02 00:00:00,008 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 00:10:00 KST)" (scheduled at 2023-11-02 00:00:00+09:00)
+2023-11-02 00:00:00,506 - ERROR - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 00:10:00 KST)" raised an exception
+Traceback (most recent call last):
+  File "D:\study\venvs\Lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\study\weather_scheduler\weather.py", line 222, in thread_function
+    if response['response']['body']['totalCount'] is None:
+       ~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'body'
+2023-11-02 00:05:00,005 - DEBUG - Looking for jobs to run
+2023-11-02 00:05:00,006 - DEBUG - Next wakeup is due at 2023-11-02 00:10:00+09:00 (in 299.993387 seconds)
+2023-11-02 00:05:00,006 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 00:15:00 KST)" (scheduled at 2023-11-02 00:05:00+09:00)
+2023-11-02 00:05:00,299 - ERROR - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 00:15:00 KST)" raised an exception
+Traceback (most recent call last):
+  File "D:\study\venvs\Lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\study\weather_scheduler\weather.py", line 222, in thread_function
+    if response['response']['body']['totalCount'] is None:
+       ~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'body'
+2023-11-02 00:10:00,011 - DEBUG - Looking for jobs to run
+2023-11-02 00:10:00,011 - DEBUG - Next wakeup is due at 2023-11-02 00:15:00+09:00 (in 299.988343 seconds)
+2023-11-02 00:10:00,011 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 00:20:00 KST)" (scheduled at 2023-11-02 00:10:00+09:00)
+2023-11-02 00:10:00,502 - ERROR - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 00:20:00 KST)" raised an exception
+Traceback (most recent call last):
+  File "D:\study\venvs\Lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\study\weather_scheduler\weather.py", line 222, in thread_function
+    if response['response']['body']['totalCount'] is None:
+       ~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'body'
+2023-11-02 00:15:00,012 - DEBUG - Looking for jobs to run
+2023-11-02 00:15:00,013 - DEBUG - Next wakeup is due at 2023-11-02 00:20:00+09:00 (in 299.986239 seconds)
+2023-11-02 00:15:00,013 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 00:25:00 KST)" (scheduled at 2023-11-02 00:15:00+09:00)
+2023-11-02 00:15:00,287 - ERROR - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 00:25:00 KST)" raised an exception
+Traceback (most recent call last):
+  File "D:\study\venvs\Lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\study\weather_scheduler\weather.py", line 222, in thread_function
+    if response['response']['body']['totalCount'] is None:
+       ~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'body'
+2023-11-02 00:20:00,011 - DEBUG - Looking for jobs to run
+2023-11-02 00:20:00,012 - DEBUG - Next wakeup is due at 2023-11-02 00:25:00+09:00 (in 299.987248 seconds)
+2023-11-02 00:20:00,012 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 00:30:00 KST)" (scheduled at 2023-11-02 00:20:00+09:00)
+2023-11-02 00:20:00,795 - ERROR - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 00:30:00 KST)" raised an exception
+Traceback (most recent call last):
+  File "D:\study\venvs\Lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\study\weather_scheduler\weather.py", line 222, in thread_function
+    if response['response']['body']['totalCount'] is None:
+       ~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'body'
+2023-11-02 00:25:00,006 - DEBUG - Looking for jobs to run
+2023-11-02 00:25:00,006 - DEBUG - Next wakeup is due at 2023-11-02 00:30:00+09:00 (in 299.993534 seconds)
+2023-11-02 00:25:00,007 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 00:35:00 KST)" (scheduled at 2023-11-02 00:25:00+09:00)
+2023-11-02 00:25:05,434 - ERROR - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 00:35:00 KST)" raised an exception
+Traceback (most recent call last):
+  File "D:\study\venvs\Lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\study\weather_scheduler\weather.py", line 222, in thread_function
+    if response['response']['body']['totalCount'] is None:
+       ~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'body'
+2023-11-02 00:30:00,002 - DEBUG - Looking for jobs to run
+2023-11-02 00:30:00,003 - DEBUG - Next wakeup is due at 2023-11-02 00:35:00+09:00 (in 299.996459 seconds)
+2023-11-02 00:30:00,003 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 00:40:00 KST)" (scheduled at 2023-11-02 00:30:00+09:00)
+2023-11-02 00:30:05,651 - ERROR - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 00:40:00 KST)" raised an exception
+Traceback (most recent call last):
+  File "D:\study\venvs\Lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\study\weather_scheduler\weather.py", line 222, in thread_function
+    if response['response']['body']['totalCount'] is None:
+       ~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'body'
+2023-11-02 00:35:00,003 - DEBUG - Looking for jobs to run
+2023-11-02 00:35:00,003 - DEBUG - Next wakeup is due at 2023-11-02 00:40:00+09:00 (in 299.996814 seconds)
+2023-11-02 00:35:00,004 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 00:45:00 KST)" (scheduled at 2023-11-02 00:35:00+09:00)
+2023-11-02 00:35:01,042 - ERROR - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 00:45:00 KST)" raised an exception
+Traceback (most recent call last):
+  File "D:\study\venvs\Lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\study\weather_scheduler\weather.py", line 222, in thread_function
+    if response['response']['body']['totalCount'] is None:
+       ~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'body'
+2023-11-02 00:40:00,001 - DEBUG - Looking for jobs to run
+2023-11-02 00:40:00,002 - DEBUG - Next wakeup is due at 2023-11-02 00:45:00+09:00 (in 299.997501 seconds)
+2023-11-02 00:40:00,002 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 00:50:00 KST)" (scheduled at 2023-11-02 00:40:00+09:00)
+2023-11-02 00:40:01,285 - ERROR - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 00:50:00 KST)" raised an exception
+Traceback (most recent call last):
+  File "D:\study\venvs\Lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\study\weather_scheduler\weather.py", line 222, in thread_function
+    if response['response']['body']['totalCount'] is None:
+       ~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'body'
+2023-11-02 00:45:00,002 - DEBUG - Looking for jobs to run
+2023-11-02 00:45:00,003 - DEBUG - Next wakeup is due at 2023-11-02 00:50:00+09:00 (in 299.996191 seconds)
+2023-11-02 00:45:00,004 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 00:55:00 KST)" (scheduled at 2023-11-02 00:45:00+09:00)
+2023-11-02 00:45:01,821 - ERROR - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 00:55:00 KST)" raised an exception
+Traceback (most recent call last):
+  File "D:\study\venvs\Lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\study\weather_scheduler\weather.py", line 222, in thread_function
+    if response['response']['body']['totalCount'] is None:
+       ~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'body'
+2023-11-02 00:50:00,013 - DEBUG - Looking for jobs to run
+2023-11-02 00:50:00,013 - DEBUG - Next wakeup is due at 2023-11-02 00:55:00+09:00 (in 299.986693 seconds)
+2023-11-02 00:50:00,014 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 01:00:00 KST)" (scheduled at 2023-11-02 00:50:00+09:00)
+2023-11-02 00:50:18,518 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 01:00:00 KST)" executed successfully
+2023-11-02 00:55:00,010 - DEBUG - Looking for jobs to run
+2023-11-02 00:55:00,010 - DEBUG - Next wakeup is due at 2023-11-02 01:00:00+09:00 (in 299.989017 seconds)
+2023-11-02 00:55:00,010 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 01:05:00 KST)" (scheduled at 2023-11-02 00:55:00+09:00)
+2023-11-02 00:55:01,556 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 01:05:00 KST)" executed successfully
+2023-11-02 01:00:00,005 - DEBUG - Looking for jobs to run
+2023-11-02 01:00:00,006 - DEBUG - Next wakeup is due at 2023-11-02 01:05:00+09:00 (in 299.993830 seconds)
+2023-11-02 01:00:00,006 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 01:10:00 KST)" (scheduled at 2023-11-02 01:00:00+09:00)
+2023-11-02 01:05:00,004 - DEBUG - Looking for jobs to run
+2023-11-02 01:05:00,005 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 01:05:00 KST)" (scheduled at 2023-11-02 01:05:00+09:00)
+2023-11-02 01:05:00,005 - DEBUG - Next wakeup is due at 2023-11-02 01:10:00+09:00 (in 299.994380 seconds)
+2023-11-02 01:05:09,170 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 01:15:00 KST)" executed successfully
+2023-11-02 01:10:00,011 - DEBUG - Looking for jobs to run
+2023-11-02 01:10:00,011 - DEBUG - Next wakeup is due at 2023-11-02 01:15:00+09:00 (in 299.988903 seconds)
+2023-11-02 01:10:00,012 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 01:20:00 KST)" (scheduled at 2023-11-02 01:10:00+09:00)
+2023-11-02 01:10:25,877 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 01:20:00 KST)" executed successfully
+2023-11-02 01:15:00,004 - DEBUG - Looking for jobs to run
+2023-11-02 01:15:00,004 - DEBUG - Next wakeup is due at 2023-11-02 01:20:00+09:00 (in 299.995146 seconds)
+2023-11-02 01:15:00,005 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 01:25:00 KST)" (scheduled at 2023-11-02 01:15:00+09:00)
+2023-11-02 01:15:28,514 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 01:25:00 KST)" executed successfully
+2023-11-02 01:20:00,011 - DEBUG - Looking for jobs to run
+2023-11-02 01:20:00,012 - DEBUG - Next wakeup is due at 2023-11-02 01:25:00+09:00 (in 299.987617 seconds)
+2023-11-02 01:20:00,012 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 01:30:00 KST)" (scheduled at 2023-11-02 01:20:00+09:00)
+2023-11-02 01:20:25,596 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 01:30:00 KST)" executed successfully
+2023-11-02 01:25:00,013 - DEBUG - Looking for jobs to run
+2023-11-02 01:25:00,013 - DEBUG - Next wakeup is due at 2023-11-02 01:30:00+09:00 (in 299.986181 seconds)
+2023-11-02 01:25:00,014 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 01:35:00 KST)" (scheduled at 2023-11-02 01:25:00+09:00)
+2023-11-02 01:25:02,205 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 01:35:00 KST)" executed successfully
+2023-11-02 01:30:00,014 - DEBUG - Looking for jobs to run
+2023-11-02 01:30:00,014 - DEBUG - Next wakeup is due at 2023-11-02 01:35:00+09:00 (in 299.985691 seconds)
+2023-11-02 01:30:00,015 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 01:40:00 KST)" (scheduled at 2023-11-02 01:30:00+09:00)
+2023-11-02 01:30:25,195 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 01:40:00 KST)" executed successfully
+2023-11-02 01:35:00,015 - DEBUG - Looking for jobs to run
+2023-11-02 01:35:00,015 - DEBUG - Next wakeup is due at 2023-11-02 01:40:00+09:00 (in 299.984336 seconds)
+2023-11-02 01:35:00,016 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 01:45:00 KST)" (scheduled at 2023-11-02 01:35:00+09:00)
+2023-11-02 01:35:07,484 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 01:45:00 KST)" executed successfully
+2023-11-02 01:40:00,005 - DEBUG - Looking for jobs to run
+2023-11-02 01:40:00,005 - DEBUG - Next wakeup is due at 2023-11-02 01:45:00+09:00 (in 299.994422 seconds)
+2023-11-02 01:40:00,005 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 01:50:00 KST)" (scheduled at 2023-11-02 01:40:00+09:00)
+2023-11-02 01:40:25,172 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 01:50:00 KST)" executed successfully
+2023-11-02 01:45:00,008 - DEBUG - Looking for jobs to run
+2023-11-02 01:45:00,008 - DEBUG - Next wakeup is due at 2023-11-02 01:50:00+09:00 (in 299.991079 seconds)
+2023-11-02 01:45:00,009 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 01:55:00 KST)" (scheduled at 2023-11-02 01:45:00+09:00)
+2023-11-02 01:45:04,704 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 01:55:00 KST)" executed successfully
+2023-11-02 01:50:00,013 - DEBUG - Looking for jobs to run
+2023-11-02 01:50:00,013 - DEBUG - Next wakeup is due at 2023-11-02 01:55:00+09:00 (in 299.986560 seconds)
+2023-11-02 01:50:00,013 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 02:00:00 KST)" (scheduled at 2023-11-02 01:50:00+09:00)
+2023-11-02 01:50:01,462 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 02:00:00 KST)" executed successfully
+2023-11-02 01:55:00,004 - DEBUG - Looking for jobs to run
+2023-11-02 01:55:00,005 - DEBUG - Next wakeup is due at 2023-11-02 02:00:00+09:00 (in 299.994058 seconds)
+2023-11-02 01:55:00,005 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 02:05:00 KST)" (scheduled at 2023-11-02 01:55:00+09:00)
+2023-11-02 01:55:04,797 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 02:05:00 KST)" executed successfully
+2023-11-02 02:00:00,003 - DEBUG - Looking for jobs to run
+2023-11-02 02:00:00,004 - DEBUG - Next wakeup is due at 2023-11-02 02:05:00+09:00 (in 299.995280 seconds)
+2023-11-02 02:00:00,004 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 02:10:00 KST)" (scheduled at 2023-11-02 02:00:00+09:00)
+2023-11-02 02:00:03,988 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 02:10:00 KST)" executed successfully
+2023-11-02 02:05:00,014 - DEBUG - Looking for jobs to run
+2023-11-02 02:05:00,014 - DEBUG - Next wakeup is due at 2023-11-02 02:10:00+09:00 (in 299.985160 seconds)
+2023-11-02 02:05:00,015 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 02:15:00 KST)" (scheduled at 2023-11-02 02:05:00+09:00)
+2023-11-02 02:05:01,742 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 02:15:00 KST)" executed successfully
+2023-11-02 02:10:00,014 - DEBUG - Looking for jobs to run
+2023-11-02 02:10:00,015 - DEBUG - Next wakeup is due at 2023-11-02 02:15:00+09:00 (in 299.984295 seconds)
+2023-11-02 02:10:00,015 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 02:20:00 KST)" (scheduled at 2023-11-02 02:10:00+09:00)
+2023-11-02 02:10:15,908 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 02:20:00 KST)" executed successfully
+2023-11-02 02:15:00,007 - DEBUG - Looking for jobs to run
+2023-11-02 02:15:00,007 - DEBUG - Next wakeup is due at 2023-11-02 02:20:00+09:00 (in 299.992216 seconds)
+2023-11-02 02:15:00,007 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 02:25:00 KST)" (scheduled at 2023-11-02 02:15:00+09:00)
+2023-11-02 02:15:25,305 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 02:25:00 KST)" executed successfully
+2023-11-02 02:20:00,010 - DEBUG - Looking for jobs to run
+2023-11-02 02:20:00,010 - DEBUG - Next wakeup is due at 2023-11-02 02:25:00+09:00 (in 299.989290 seconds)
+2023-11-02 02:20:00,011 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 02:30:00 KST)" (scheduled at 2023-11-02 02:20:00+09:00)
+2023-11-02 02:20:01,941 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 02:30:00 KST)" executed successfully
+2023-11-02 02:25:00,008 - DEBUG - Looking for jobs to run
+2023-11-02 02:25:00,009 - DEBUG - Next wakeup is due at 2023-11-02 02:30:00+09:00 (in 299.990384 seconds)
+2023-11-02 02:25:00,009 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 02:35:00 KST)" (scheduled at 2023-11-02 02:25:00+09:00)
+2023-11-02 02:25:16,915 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 02:35:00 KST)" executed successfully
+2023-11-02 02:30:00,002 - DEBUG - Looking for jobs to run
+2023-11-02 02:30:00,003 - INFO - Running job "ThreadRead.thread_function (trigger: cron[hour='2', minute='30'], next run at: 2023-11-03 02:30:00 KST)" (scheduled at 2023-11-02 02:30:00+09:00)
+2023-11-02 02:30:00,004 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 02:40:00 KST)" (scheduled at 2023-11-02 02:30:00+09:00)
+2023-11-02 02:30:00,004 - DEBUG - Next wakeup is due at 2023-11-02 02:35:00+09:00 (in 299.995883 seconds)
+2023-11-02 02:30:25,425 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 02:40:00 KST)" executed successfully
+2023-11-02 02:30:27,509 - INFO - Job "ThreadRead.thread_function (trigger: cron[hour='2', minute='30'], next run at: 2023-11-03 02:30:00 KST)" executed successfully
+2023-11-02 02:35:00,009 - DEBUG - Looking for jobs to run
+2023-11-02 02:35:00,009 - DEBUG - Next wakeup is due at 2023-11-02 02:40:00+09:00 (in 299.990401 seconds)
+2023-11-02 02:35:00,010 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 02:45:00 KST)" (scheduled at 2023-11-02 02:35:00+09:00)
+2023-11-02 02:35:09,237 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 02:45:00 KST)" executed successfully
+2023-11-02 02:40:00,013 - DEBUG - Looking for jobs to run
+2023-11-02 02:40:00,013 - DEBUG - Next wakeup is due at 2023-11-02 02:45:00+09:00 (in 299.986929 seconds)
+2023-11-02 02:40:00,014 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 02:50:00 KST)" (scheduled at 2023-11-02 02:40:00+09:00)
+2023-11-02 02:40:25,590 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 02:50:00 KST)" executed successfully
+2023-11-02 02:45:00,014 - DEBUG - Looking for jobs to run
+2023-11-02 02:45:00,014 - DEBUG - Next wakeup is due at 2023-11-02 02:50:00+09:00 (in 299.985488 seconds)
+2023-11-02 02:45:00,015 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 02:55:00 KST)" (scheduled at 2023-11-02 02:45:00+09:00)
+2023-11-02 02:45:02,775 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 02:55:00 KST)" executed successfully
+2023-11-02 02:50:00,017 - DEBUG - Looking for jobs to run
+2023-11-02 02:50:00,017 - DEBUG - Next wakeup is due at 2023-11-02 02:55:00+09:00 (in 299.982102 seconds)
+2023-11-02 02:50:00,017 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 03:00:00 KST)" (scheduled at 2023-11-02 02:50:00+09:00)
+2023-11-02 02:50:03,839 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 03:00:00 KST)" executed successfully
+2023-11-02 02:55:00,011 - DEBUG - Looking for jobs to run
+2023-11-02 02:55:00,012 - DEBUG - Next wakeup is due at 2023-11-02 03:00:00+09:00 (in 299.987897 seconds)
+2023-11-02 02:55:00,012 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 03:05:00 KST)" (scheduled at 2023-11-02 02:55:00+09:00)
+2023-11-02 02:55:04,270 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 03:05:00 KST)" executed successfully
+2023-11-02 03:00:00,004 - DEBUG - Looking for jobs to run
+2023-11-02 03:00:00,005 - DEBUG - Next wakeup is due at 2023-11-02 03:05:00+09:00 (in 299.995173 seconds)
+2023-11-02 03:00:00,005 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 03:10:00 KST)" (scheduled at 2023-11-02 03:00:00+09:00)
+2023-11-02 03:00:03,525 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 03:10:00 KST)" executed successfully
+2023-11-02 03:05:00,019 - DEBUG - Looking for jobs to run
+2023-11-02 03:05:00,019 - DEBUG - Next wakeup is due at 2023-11-02 03:10:00+09:00 (in 299.980807 seconds)
+2023-11-02 03:05:00,019 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 03:15:00 KST)" (scheduled at 2023-11-02 03:05:00+09:00)
+2023-11-02 03:05:02,684 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 03:15:00 KST)" executed successfully
+2023-11-02 03:10:00,003 - DEBUG - Looking for jobs to run
+2023-11-02 03:10:00,004 - DEBUG - Next wakeup is due at 2023-11-02 03:15:00+09:00 (in 299.996602 seconds)
+2023-11-02 03:10:00,004 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 03:20:00 KST)" (scheduled at 2023-11-02 03:10:00+09:00)
+2023-11-02 03:10:06,069 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 03:20:00 KST)" executed successfully
+2023-11-02 03:15:00,011 - DEBUG - Looking for jobs to run
+2023-11-02 03:15:00,012 - DEBUG - Next wakeup is due at 2023-11-02 03:20:00+09:00 (in 299.988376 seconds)
+2023-11-02 03:15:00,012 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 03:25:00 KST)" (scheduled at 2023-11-02 03:15:00+09:00)
+2023-11-02 03:15:01,695 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 03:25:00 KST)" executed successfully
+2023-11-02 03:20:00,004 - DEBUG - Looking for jobs to run
+2023-11-02 03:20:00,005 - DEBUG - Next wakeup is due at 2023-11-02 03:25:00+09:00 (in 299.994507 seconds)
+2023-11-02 03:20:00,005 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 03:30:00 KST)" (scheduled at 2023-11-02 03:20:00+09:00)
+2023-11-02 03:20:06,433 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 03:30:00 KST)" executed successfully
+2023-11-02 03:25:00,013 - DEBUG - Looking for jobs to run
+2023-11-02 03:25:00,013 - DEBUG - Next wakeup is due at 2023-11-02 03:30:00+09:00 (in 299.986586 seconds)
+2023-11-02 03:25:00,013 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 03:35:00 KST)" (scheduled at 2023-11-02 03:25:00+09:00)
+2023-11-02 03:25:01,580 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 03:35:00 KST)" executed successfully
+2023-11-02 03:30:00,008 - DEBUG - Looking for jobs to run
+2023-11-02 03:30:00,009 - DEBUG - Next wakeup is due at 2023-11-02 03:35:00+09:00 (in 299.990330 seconds)
+2023-11-02 03:30:00,009 - INFO - Running job "ThreadRead.thread_function (trigger: cron[hour='3', minute='30'], next run at: 2023-11-03 03:30:00 KST)" (scheduled at 2023-11-02 03:30:00+09:00)
+2023-11-02 03:30:00,010 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 03:40:00 KST)" (scheduled at 2023-11-02 03:30:00+09:00)
+2023-11-02 03:30:01,618 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 03:40:00 KST)" executed successfully
+2023-11-02 03:30:05,161 - INFO - Job "ThreadRead.thread_function (trigger: cron[hour='3', minute='30'], next run at: 2023-11-03 03:30:00 KST)" executed successfully
+2023-11-02 03:35:00,011 - DEBUG - Looking for jobs to run
+2023-11-02 03:35:00,011 - DEBUG - Next wakeup is due at 2023-11-02 03:40:00+09:00 (in 299.988109 seconds)
+2023-11-02 03:35:00,012 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 03:45:00 KST)" (scheduled at 2023-11-02 03:35:00+09:00)
+2023-11-02 03:35:02,753 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 03:45:00 KST)" executed successfully
+2023-11-02 03:40:00,006 - DEBUG - Looking for jobs to run
+2023-11-02 03:40:00,007 - DEBUG - Next wakeup is due at 2023-11-02 03:45:00+09:00 (in 299.992778 seconds)
+2023-11-02 03:40:00,007 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 03:50:00 KST)" (scheduled at 2023-11-02 03:40:00+09:00)
+2023-11-02 03:40:25,355 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 03:50:00 KST)" executed successfully
+2023-11-02 03:45:00,006 - DEBUG - Looking for jobs to run
+2023-11-02 03:45:00,006 - DEBUG - Next wakeup is due at 2023-11-02 03:50:00+09:00 (in 299.993692 seconds)
+2023-11-02 03:45:00,007 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 03:55:00 KST)" (scheduled at 2023-11-02 03:45:00+09:00)
+2023-11-02 03:45:25,910 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 03:55:00 KST)" executed successfully
+2023-11-02 03:50:00,014 - DEBUG - Looking for jobs to run
+2023-11-02 03:50:00,014 - DEBUG - Next wakeup is due at 2023-11-02 03:55:00+09:00 (in 299.985997 seconds)
+2023-11-02 03:50:00,014 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 04:00:00 KST)" (scheduled at 2023-11-02 03:50:00+09:00)
+2023-11-02 03:50:10,237 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 04:00:00 KST)" executed successfully
+2023-11-02 03:55:00,007 - DEBUG - Looking for jobs to run
+2023-11-02 03:55:00,009 - DEBUG - Next wakeup is due at 2023-11-02 04:00:00+09:00 (in 299.990292 seconds)
+2023-11-02 03:55:00,009 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 04:05:00 KST)" (scheduled at 2023-11-02 03:55:00+09:00)
+2023-11-02 03:55:04,610 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 04:05:00 KST)" executed successfully
+2023-11-02 04:00:00,001 - DEBUG - Looking for jobs to run
+2023-11-02 04:00:00,002 - DEBUG - Next wakeup is due at 2023-11-02 04:05:00+09:00 (in 299.997053 seconds)
+2023-11-02 04:00:00,002 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 04:10:00 KST)" (scheduled at 2023-11-02 04:00:00+09:00)
+2023-11-02 04:00:02,696 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 04:10:00 KST)" executed successfully
+2023-11-02 04:05:00,006 - DEBUG - Looking for jobs to run
+2023-11-02 04:05:00,006 - DEBUG - Next wakeup is due at 2023-11-02 04:10:00+09:00 (in 299.993933 seconds)
+2023-11-02 04:05:00,007 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 04:15:00 KST)" (scheduled at 2023-11-02 04:05:00+09:00)
+2023-11-02 04:05:25,580 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 04:15:00 KST)" executed successfully
+2023-11-02 04:10:00,011 - DEBUG - Looking for jobs to run
+2023-11-02 04:10:00,011 - DEBUG - Next wakeup is due at 2023-11-02 04:15:00+09:00 (in 299.988419 seconds)
+2023-11-02 04:10:00,012 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 04:20:00 KST)" (scheduled at 2023-11-02 04:10:00+09:00)
+2023-11-02 04:10:01,458 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 04:20:00 KST)" executed successfully
+2023-11-02 04:15:00,011 - DEBUG - Looking for jobs to run
+2023-11-02 04:15:00,011 - DEBUG - Next wakeup is due at 2023-11-02 04:20:00+09:00 (in 299.988132 seconds)
+2023-11-02 04:15:00,012 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 04:25:00 KST)" (scheduled at 2023-11-02 04:15:00+09:00)
+2023-11-02 04:15:05,086 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 04:25:00 KST)" executed successfully
+2023-11-02 04:20:00,004 - DEBUG - Looking for jobs to run
+2023-11-02 04:20:00,004 - DEBUG - Next wakeup is due at 2023-11-02 04:25:00+09:00 (in 299.995478 seconds)
+2023-11-02 04:20:00,005 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 04:30:00 KST)" (scheduled at 2023-11-02 04:20:00+09:00)
+2023-11-02 04:20:19,707 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 04:30:00 KST)" executed successfully
+2023-11-02 04:25:00,003 - DEBUG - Looking for jobs to run
+2023-11-02 04:25:00,003 - DEBUG - Next wakeup is due at 2023-11-02 04:30:00+09:00 (in 299.996008 seconds)
+2023-11-02 04:25:00,004 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 04:35:00 KST)" (scheduled at 2023-11-02 04:25:00+09:00)
+2023-11-02 04:25:01,560 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 04:35:00 KST)" executed successfully
+2023-11-02 04:30:00,014 - DEBUG - Looking for jobs to run
+2023-11-02 04:30:00,015 - DEBUG - Next wakeup is due at 2023-11-02 04:35:00+09:00 (in 299.984480 seconds)
+2023-11-02 04:30:00,015 - INFO - Running job "ThreadRead.thread_function (trigger: cron[hour='4', minute='30'], next run at: 2023-11-03 04:30:00 KST)" (scheduled at 2023-11-02 04:30:00+09:00)
+2023-11-02 04:30:00,015 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 04:40:00 KST)" (scheduled at 2023-11-02 04:30:00+09:00)
+2023-11-02 04:30:03,669 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 04:40:00 KST)" executed successfully
+2023-11-02 04:30:17,666 - INFO - Job "ThreadRead.thread_function (trigger: cron[hour='4', minute='30'], next run at: 2023-11-03 04:30:00 KST)" executed successfully
+2023-11-02 04:35:00,008 - DEBUG - Looking for jobs to run
+2023-11-02 04:35:00,009 - DEBUG - Next wakeup is due at 2023-11-02 04:40:00+09:00 (in 299.990848 seconds)
+2023-11-02 04:35:00,009 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 04:45:00 KST)" (scheduled at 2023-11-02 04:35:00+09:00)
+2023-11-02 04:35:05,014 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 04:45:00 KST)" executed successfully
+2023-11-02 04:40:00,004 - DEBUG - Looking for jobs to run
+2023-11-02 04:40:00,005 - DEBUG - Next wakeup is due at 2023-11-02 04:45:00+09:00 (in 299.994676 seconds)
+2023-11-02 04:40:00,005 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 04:50:00 KST)" (scheduled at 2023-11-02 04:40:00+09:00)
+2023-11-02 04:40:01,564 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 04:50:00 KST)" executed successfully
+2023-11-02 04:45:00,010 - DEBUG - Looking for jobs to run
+2023-11-02 04:45:00,010 - DEBUG - Next wakeup is due at 2023-11-02 04:50:00+09:00 (in 299.989999 seconds)
+2023-11-02 04:45:00,010 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 04:55:00 KST)" (scheduled at 2023-11-02 04:45:00+09:00)
+2023-11-02 04:45:16,728 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 04:55:00 KST)" executed successfully
+2023-11-02 04:50:00,011 - DEBUG - Looking for jobs to run
+2023-11-02 04:50:00,011 - DEBUG - Next wakeup is due at 2023-11-02 04:55:00+09:00 (in 299.988144 seconds)
+2023-11-02 04:50:00,011 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 05:00:00 KST)" (scheduled at 2023-11-02 04:50:00+09:00)
+2023-11-02 04:50:26,165 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 05:00:00 KST)" executed successfully
+2023-11-02 04:55:00,006 - DEBUG - Looking for jobs to run
+2023-11-02 04:55:00,007 - DEBUG - Next wakeup is due at 2023-11-02 05:00:00+09:00 (in 299.992706 seconds)
+2023-11-02 04:55:00,007 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 05:05:00 KST)" (scheduled at 2023-11-02 04:55:00+09:00)
+2023-11-02 04:55:05,044 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 05:05:00 KST)" executed successfully
+2023-11-02 05:00:00,013 - DEBUG - Looking for jobs to run
+2023-11-02 05:00:00,014 - DEBUG - Next wakeup is due at 2023-11-02 05:05:00+09:00 (in 299.985001 seconds)
+2023-11-02 05:00:00,014 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 05:10:00 KST)" (scheduled at 2023-11-02 05:00:00+09:00)
+2023-11-02 05:00:19,132 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 05:10:00 KST)" executed successfully
+2023-11-02 05:05:00,007 - DEBUG - Looking for jobs to run
+2023-11-02 05:05:00,007 - DEBUG - Next wakeup is due at 2023-11-02 05:10:00+09:00 (in 299.992069 seconds)
+2023-11-02 05:05:00,008 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 05:15:00 KST)" (scheduled at 2023-11-02 05:05:00+09:00)
+2023-11-02 05:05:03,226 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 05:15:00 KST)" executed successfully
+2023-11-02 05:10:00,012 - DEBUG - Looking for jobs to run
+2023-11-02 05:10:00,012 - DEBUG - Next wakeup is due at 2023-11-02 05:15:00+09:00 (in 299.987172 seconds)
+2023-11-02 05:10:00,012 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 05:20:00 KST)" (scheduled at 2023-11-02 05:10:00+09:00)
+2023-11-02 05:10:12,034 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 05:20:00 KST)" executed successfully
+2023-11-02 05:15:00,011 - DEBUG - Looking for jobs to run
+2023-11-02 05:15:00,011 - DEBUG - Next wakeup is due at 2023-11-02 05:20:00+09:00 (in 299.988970 seconds)
+2023-11-02 05:15:00,011 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 05:25:00 KST)" (scheduled at 2023-11-02 05:15:00+09:00)
+2023-11-02 05:15:10,311 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 05:25:00 KST)" executed successfully
+2023-11-02 05:20:00,005 - DEBUG - Looking for jobs to run
+2023-11-02 05:20:00,005 - DEBUG - Next wakeup is due at 2023-11-02 05:25:00+09:00 (in 299.994671 seconds)
+2023-11-02 05:20:00,006 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 05:30:00 KST)" (scheduled at 2023-11-02 05:20:00+09:00)
+2023-11-02 05:20:16,447 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 05:30:00 KST)" executed successfully
+2023-11-02 05:25:00,015 - DEBUG - Looking for jobs to run
+2023-11-02 05:25:00,015 - DEBUG - Next wakeup is due at 2023-11-02 05:30:00+09:00 (in 299.984695 seconds)
+2023-11-02 05:25:00,016 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 05:35:00 KST)" (scheduled at 2023-11-02 05:25:00+09:00)
+2023-11-02 05:25:01,673 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 05:35:00 KST)" executed successfully
+2023-11-02 05:30:00,006 - DEBUG - Looking for jobs to run
+2023-11-02 05:30:00,007 - DEBUG - Next wakeup is due at 2023-11-02 05:35:00+09:00 (in 299.992195 seconds)
+2023-11-02 05:30:00,007 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 05:40:00 KST)" (scheduled at 2023-11-02 05:30:00+09:00)
+2023-11-02 05:30:25,317 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 05:40:00 KST)" executed successfully
+2023-11-02 05:35:00,006 - DEBUG - Looking for jobs to run
+2023-11-02 05:35:00,006 - DEBUG - Next wakeup is due at 2023-11-02 05:40:00+09:00 (in 299.993770 seconds)
+2023-11-02 05:35:00,006 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 05:45:00 KST)" (scheduled at 2023-11-02 05:35:00+09:00)
+2023-11-02 05:35:01,708 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 05:45:00 KST)" executed successfully
+2023-11-02 05:40:00,002 - DEBUG - Looking for jobs to run
+2023-11-02 05:40:00,003 - DEBUG - Next wakeup is due at 2023-11-02 05:45:00+09:00 (in 299.996144 seconds)
+2023-11-02 05:40:00,003 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 05:50:00 KST)" (scheduled at 2023-11-02 05:40:00+09:00)
+2023-11-02 05:40:25,155 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 05:50:00 KST)" executed successfully
+2023-11-02 05:45:00,007 - DEBUG - Looking for jobs to run
+2023-11-02 05:45:00,008 - DEBUG - Next wakeup is due at 2023-11-02 05:50:00+09:00 (in 299.992221 seconds)
+2023-11-02 05:45:00,008 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 05:55:00 KST)" (scheduled at 2023-11-02 05:45:00+09:00)
+2023-11-02 05:45:01,805 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 05:55:00 KST)" executed successfully
+2023-11-02 05:50:00,006 - DEBUG - Looking for jobs to run
+2023-11-02 05:50:00,006 - DEBUG - Next wakeup is due at 2023-11-02 05:55:00+09:00 (in 299.993643 seconds)
+2023-11-02 05:50:00,007 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 06:00:00 KST)" (scheduled at 2023-11-02 05:50:00+09:00)
+2023-11-02 05:50:01,707 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 06:00:00 KST)" executed successfully
+2023-11-02 05:55:00,014 - DEBUG - Looking for jobs to run
+2023-11-02 05:55:00,014 - DEBUG - Next wakeup is due at 2023-11-02 06:00:00+09:00 (in 299.985742 seconds)
+2023-11-02 05:55:00,015 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 06:05:00 KST)" (scheduled at 2023-11-02 05:55:00+09:00)
+2023-11-02 05:55:02,412 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 06:05:00 KST)" executed successfully
+2023-11-02 06:00:00,001 - DEBUG - Looking for jobs to run
+2023-11-02 06:00:00,001 - DEBUG - Next wakeup is due at 2023-11-02 06:05:00+09:00 (in 299.998084 seconds)
+2023-11-02 06:00:00,001 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 06:10:00 KST)" (scheduled at 2023-11-02 06:00:00+09:00)
+2023-11-02 06:00:02,081 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 06:10:00 KST)" executed successfully
+2023-11-02 06:05:00,001 - DEBUG - Looking for jobs to run
+2023-11-02 06:05:00,002 - DEBUG - Next wakeup is due at 2023-11-02 06:10:00+09:00 (in 299.997362 seconds)
+2023-11-02 06:05:00,002 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 06:15:00 KST)" (scheduled at 2023-11-02 06:05:00+09:00)
+2023-11-02 06:05:26,013 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 06:15:00 KST)" executed successfully
+2023-11-02 06:10:00,012 - DEBUG - Looking for jobs to run
+2023-11-02 06:10:00,012 - DEBUG - Next wakeup is due at 2023-11-02 06:15:00+09:00 (in 299.987900 seconds)
+2023-11-02 06:10:00,013 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 06:20:00 KST)" (scheduled at 2023-11-02 06:10:00+09:00)
+2023-11-02 06:10:01,959 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 06:20:00 KST)" executed successfully
+2023-11-02 06:15:00,013 - DEBUG - Looking for jobs to run
+2023-11-02 06:15:00,014 - DEBUG - Next wakeup is due at 2023-11-02 06:20:00+09:00 (in 299.985573 seconds)
+2023-11-02 06:15:00,014 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 06:25:00 KST)" (scheduled at 2023-11-02 06:15:00+09:00)
+2023-11-02 06:15:01,772 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 06:25:00 KST)" executed successfully
+2023-11-02 06:20:00,009 - DEBUG - Looking for jobs to run
+2023-11-02 06:20:00,009 - DEBUG - Next wakeup is due at 2023-11-02 06:25:00+09:00 (in 299.990459 seconds)
+2023-11-02 06:20:00,010 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 06:30:00 KST)" (scheduled at 2023-11-02 06:20:00+09:00)
+2023-11-02 06:20:15,466 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 06:30:00 KST)" executed successfully
+2023-11-02 06:25:00,010 - DEBUG - Looking for jobs to run
+2023-11-02 06:25:00,011 - DEBUG - Next wakeup is due at 2023-11-02 06:30:00+09:00 (in 299.988065 seconds)
+2023-11-02 06:25:00,011 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 06:35:00 KST)" (scheduled at 2023-11-02 06:25:00+09:00)
+2023-11-02 06:25:08,837 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 06:35:00 KST)" executed successfully
+2023-11-02 06:30:00,013 - DEBUG - Looking for jobs to run
+2023-11-02 06:30:00,013 - DEBUG - Next wakeup is due at 2023-11-02 06:35:00+09:00 (in 299.986722 seconds)
+2023-11-02 06:30:00,014 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 06:40:00 KST)" (scheduled at 2023-11-02 06:30:00+09:00)
+2023-11-02 06:30:25,840 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 06:40:00 KST)" executed successfully
+2023-11-02 06:35:00,001 - DEBUG - Looking for jobs to run
+2023-11-02 06:35:00,002 - DEBUG - Next wakeup is due at 2023-11-02 06:40:00+09:00 (in 299.997482 seconds)
+2023-11-02 06:35:00,002 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 06:45:00 KST)" (scheduled at 2023-11-02 06:35:00+09:00)
+2023-11-02 06:35:01,693 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 06:45:00 KST)" executed successfully
+2023-11-02 06:40:00,010 - DEBUG - Looking for jobs to run
+2023-11-02 06:40:00,010 - DEBUG - Next wakeup is due at 2023-11-02 06:45:00+09:00 (in 299.989695 seconds)
+2023-11-02 06:40:00,011 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 06:50:00 KST)" (scheduled at 2023-11-02 06:40:00+09:00)
+2023-11-02 06:40:01,622 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 06:50:00 KST)" executed successfully
+2023-11-02 06:45:00,005 - DEBUG - Looking for jobs to run
+2023-11-02 06:45:00,006 - DEBUG - Next wakeup is due at 2023-11-02 06:50:00+09:00 (in 299.993817 seconds)
+2023-11-02 06:45:00,006 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 06:55:00 KST)" (scheduled at 2023-11-02 06:45:00+09:00)
+2023-11-02 06:45:15,997 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 06:55:00 KST)" executed successfully
+2023-11-02 06:50:00,000 - DEBUG - Looking for jobs to run
+2023-11-02 06:50:00,000 - DEBUG - Next wakeup is due at 2023-11-02 06:55:00+09:00 (in 299.999208 seconds)
+2023-11-02 06:50:00,000 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 07:00:00 KST)" (scheduled at 2023-11-02 06:50:00+09:00)
+2023-11-02 06:50:02,452 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 07:00:00 KST)" executed successfully
+2023-11-02 06:55:00,015 - DEBUG - Looking for jobs to run
+2023-11-02 06:55:00,015 - DEBUG - Next wakeup is due at 2023-11-02 07:00:00+09:00 (in 299.984259 seconds)
+2023-11-02 06:55:00,015 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 07:05:00 KST)" (scheduled at 2023-11-02 06:55:00+09:00)
+2023-11-02 06:55:04,327 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 07:05:00 KST)" executed successfully
+2023-11-02 07:00:00,009 - DEBUG - Looking for jobs to run
+2023-11-02 07:00:00,009 - DEBUG - Next wakeup is due at 2023-11-02 07:05:00+09:00 (in 299.990725 seconds)
+2023-11-02 07:00:00,010 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 07:10:00 KST)" (scheduled at 2023-11-02 07:00:00+09:00)
+2023-11-02 07:00:38,471 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 07:10:00 KST)" executed successfully
+2023-11-02 07:05:00,011 - DEBUG - Looking for jobs to run
+2023-11-02 07:05:00,012 - DEBUG - Next wakeup is due at 2023-11-02 07:10:00+09:00 (in 299.987443 seconds)
+2023-11-02 07:05:00,012 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 07:15:00 KST)" (scheduled at 2023-11-02 07:05:00+09:00)
+2023-11-02 07:05:03,241 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 07:15:00 KST)" executed successfully
+2023-11-02 07:10:00,002 - DEBUG - Looking for jobs to run
+2023-11-02 07:10:00,002 - DEBUG - Next wakeup is due at 2023-11-02 07:15:00+09:00 (in 299.997465 seconds)
+2023-11-02 07:10:00,003 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 07:20:00 KST)" (scheduled at 2023-11-02 07:10:00+09:00)
+2023-11-02 07:10:24,253 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 07:20:00 KST)" executed successfully
+2023-11-02 07:15:00,016 - DEBUG - Looking for jobs to run
+2023-11-02 07:15:00,016 - DEBUG - Next wakeup is due at 2023-11-02 07:20:00+09:00 (in 299.983519 seconds)
+2023-11-02 07:15:00,016 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 07:25:00 KST)" (scheduled at 2023-11-02 07:15:00+09:00)
+2023-11-02 07:15:02,707 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 07:25:00 KST)" executed successfully
+2023-11-02 07:20:00,013 - DEBUG - Looking for jobs to run
+2023-11-02 07:20:00,014 - DEBUG - Next wakeup is due at 2023-11-02 07:25:00+09:00 (in 299.985309 seconds)
+2023-11-02 07:20:00,014 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 07:30:00 KST)" (scheduled at 2023-11-02 07:20:00+09:00)
+2023-11-02 07:20:07,027 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 07:30:00 KST)" executed successfully
+2023-11-02 07:25:00,002 - DEBUG - Looking for jobs to run
+2023-11-02 07:25:00,002 - DEBUG - Next wakeup is due at 2023-11-02 07:30:00+09:00 (in 299.997240 seconds)
+2023-11-02 07:25:00,003 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 07:35:00 KST)" (scheduled at 2023-11-02 07:25:00+09:00)
+2023-11-02 07:25:01,668 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 07:35:00 KST)" executed successfully
+2023-11-02 07:30:00,015 - DEBUG - Looking for jobs to run
+2023-11-02 07:30:00,015 - DEBUG - Next wakeup is due at 2023-11-02 07:35:00+09:00 (in 299.984888 seconds)
+2023-11-02 07:30:00,015 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 07:40:00 KST)" (scheduled at 2023-11-02 07:30:00+09:00)
+2023-11-02 07:30:32,785 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 07:40:00 KST)" executed successfully
+2023-11-02 07:35:00,003 - DEBUG - Looking for jobs to run
+2023-11-02 07:35:00,003 - DEBUG - Next wakeup is due at 2023-11-02 07:40:00+09:00 (in 299.996171 seconds)
+2023-11-02 07:35:00,004 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 07:45:00 KST)" (scheduled at 2023-11-02 07:35:00+09:00)
+2023-11-02 07:35:07,463 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 07:45:00 KST)" executed successfully
+2023-11-02 07:40:00,007 - DEBUG - Looking for jobs to run
+2023-11-02 07:40:00,008 - DEBUG - Next wakeup is due at 2023-11-02 07:45:00+09:00 (in 299.991710 seconds)
+2023-11-02 07:40:00,008 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 07:50:00 KST)" (scheduled at 2023-11-02 07:40:00+09:00)
+2023-11-02 07:40:19,741 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 07:50:00 KST)" executed successfully
+2023-11-02 07:45:00,003 - DEBUG - Looking for jobs to run
+2023-11-02 07:45:00,004 - DEBUG - Next wakeup is due at 2023-11-02 07:50:00+09:00 (in 299.996409 seconds)
+2023-11-02 07:45:00,004 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 07:55:00 KST)" (scheduled at 2023-11-02 07:45:00+09:00)
+2023-11-02 07:45:03,368 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 07:55:00 KST)" executed successfully
+2023-11-02 07:50:00,006 - DEBUG - Looking for jobs to run
+2023-11-02 07:50:00,007 - DEBUG - Next wakeup is due at 2023-11-02 07:55:00+09:00 (in 299.992023 seconds)
+2023-11-02 07:50:00,007 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 08:00:00 KST)" (scheduled at 2023-11-02 07:50:00+09:00)
+2023-11-02 07:50:16,077 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 08:00:00 KST)" executed successfully
+2023-11-02 07:55:00,010 - DEBUG - Looking for jobs to run
+2023-11-02 07:55:00,011 - DEBUG - Next wakeup is due at 2023-11-02 08:00:00+09:00 (in 299.988437 seconds)
+2023-11-02 07:55:00,011 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 08:05:00 KST)" (scheduled at 2023-11-02 07:55:00+09:00)
+2023-11-02 07:55:04,737 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 08:05:00 KST)" executed successfully
+2023-11-02 08:00:00,013 - DEBUG - Looking for jobs to run
+2023-11-02 08:00:00,013 - DEBUG - Next wakeup is due at 2023-11-02 08:05:00+09:00 (in 299.986003 seconds)
+2023-11-02 08:00:00,013 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 08:10:00 KST)" (scheduled at 2023-11-02 08:00:00+09:00)
+2023-11-02 08:00:06,271 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 08:10:00 KST)" executed successfully
+2023-11-02 08:05:00,013 - DEBUG - Looking for jobs to run
+2023-11-02 08:05:00,013 - DEBUG - Next wakeup is due at 2023-11-02 08:10:00+09:00 (in 299.986404 seconds)
+2023-11-02 08:05:00,014 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 08:15:00 KST)" (scheduled at 2023-11-02 08:05:00+09:00)
+2023-11-02 08:05:06,119 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 08:15:00 KST)" executed successfully
+2023-11-02 08:10:00,016 - DEBUG - Looking for jobs to run
+2023-11-02 08:10:00,016 - DEBUG - Next wakeup is due at 2023-11-02 08:15:00+09:00 (in 299.983970 seconds)
+2023-11-02 08:10:00,016 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 08:20:00 KST)" (scheduled at 2023-11-02 08:10:00+09:00)
+2023-11-02 08:10:11,305 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 08:20:00 KST)" executed successfully
+2023-11-02 08:15:00,002 - DEBUG - Looking for jobs to run
+2023-11-02 08:15:00,003 - DEBUG - Next wakeup is due at 2023-11-02 08:20:00+09:00 (in 299.996668 seconds)
+2023-11-02 08:15:00,003 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 08:25:00 KST)" (scheduled at 2023-11-02 08:15:00+09:00)
+2023-11-02 08:15:03,971 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 08:25:00 KST)" executed successfully
+2023-11-02 08:20:00,009 - DEBUG - Looking for jobs to run
+2023-11-02 08:20:00,009 - DEBUG - Next wakeup is due at 2023-11-02 08:25:00+09:00 (in 299.990321 seconds)
+2023-11-02 08:20:00,009 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 08:30:00 KST)" (scheduled at 2023-11-02 08:20:00+09:00)
+2023-11-02 08:20:04,998 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 08:30:00 KST)" executed successfully
+2023-11-02 08:25:00,013 - DEBUG - Looking for jobs to run
+2023-11-02 08:25:00,013 - DEBUG - Next wakeup is due at 2023-11-02 08:30:00+09:00 (in 299.986535 seconds)
+2023-11-02 08:25:00,014 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 08:35:00 KST)" (scheduled at 2023-11-02 08:25:00+09:00)
+2023-11-02 08:25:02,775 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 08:35:00 KST)" executed successfully
+2023-11-02 08:30:00,010 - DEBUG - Looking for jobs to run
+2023-11-02 08:30:00,010 - DEBUG - Next wakeup is due at 2023-11-02 08:35:00+09:00 (in 299.989970 seconds)
+2023-11-02 08:30:00,011 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 08:40:00 KST)" (scheduled at 2023-11-02 08:30:00+09:00)
+2023-11-02 08:30:02,080 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 08:40:00 KST)" executed successfully
+2023-11-02 08:35:00,007 - DEBUG - Looking for jobs to run
+2023-11-02 08:35:00,008 - DEBUG - Next wakeup is due at 2023-11-02 08:40:00+09:00 (in 299.991444 seconds)
+2023-11-02 08:35:00,008 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 08:45:00 KST)" (scheduled at 2023-11-02 08:35:00+09:00)
+2023-11-02 08:35:01,715 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 08:45:00 KST)" executed successfully
+2023-11-02 08:40:00,011 - DEBUG - Looking for jobs to run
+2023-11-02 08:40:00,011 - DEBUG - Next wakeup is due at 2023-11-02 08:45:00+09:00 (in 299.988318 seconds)
+2023-11-02 08:40:00,012 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 08:50:00 KST)" (scheduled at 2023-11-02 08:40:00+09:00)
+2023-11-02 08:40:02,685 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 08:50:00 KST)" executed successfully
+2023-11-02 08:45:00,016 - DEBUG - Looking for jobs to run
+2023-11-02 08:45:00,016 - DEBUG - Next wakeup is due at 2023-11-02 08:50:00+09:00 (in 299.983685 seconds)
+2023-11-02 08:45:00,016 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 08:55:00 KST)" (scheduled at 2023-11-02 08:45:00+09:00)
+2023-11-02 08:50:00,014 - DEBUG - Looking for jobs to run
+2023-11-02 08:50:00,015 - DEBUG - Next wakeup is due at 2023-11-02 08:55:00+09:00 (in 299.984844 seconds)
+2023-11-02 08:50:00,015 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 09:00:00 KST)" (scheduled at 2023-11-02 08:50:00+09:00)
+2023-11-02 08:55:00,008 - DEBUG - Looking for jobs to run
+2023-11-02 08:55:00,009 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 08:55:00 KST)" (scheduled at 2023-11-02 08:55:00+09:00)
+2023-11-02 08:55:00,010 - DEBUG - Next wakeup is due at 2023-11-02 09:00:00+09:00 (in 299.989469 seconds)
+2023-11-02 09:00:00,005 - DEBUG - Looking for jobs to run
+2023-11-02 09:00:00,006 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 09:00:00 KST)" (scheduled at 2023-11-02 09:00:00+09:00)
+2023-11-02 09:00:00,006 - DEBUG - Next wakeup is due at 2023-11-02 09:05:00+09:00 (in 299.993208 seconds)
+2023-11-02 09:05:00,015 - DEBUG - Looking for jobs to run
+2023-11-02 09:05:00,015 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 09:05:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 09:05:00,016 - DEBUG - Next wakeup is due at 2023-11-02 09:10:00+09:00 (in 299.983873 seconds)
+2023-11-02 09:10:00,008 - DEBUG - Looking for jobs to run
+2023-11-02 09:10:00,008 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 09:10:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 09:10:00,008 - DEBUG - Next wakeup is due at 2023-11-02 09:15:00+09:00 (in 299.991148 seconds)
+2023-11-02 09:15:00,003 - DEBUG - Looking for jobs to run
+2023-11-02 09:15:00,003 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 09:15:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 09:15:00,004 - DEBUG - Next wakeup is due at 2023-11-02 09:20:00+09:00 (in 299.995452 seconds)
+2023-11-02 09:20:00,015 - DEBUG - Looking for jobs to run
+2023-11-02 09:20:00,015 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 09:20:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 09:20:00,016 - DEBUG - Next wakeup is due at 2023-11-02 09:25:00+09:00 (in 299.983831 seconds)
+2023-11-02 09:25:00,013 - DEBUG - Looking for jobs to run
+2023-11-02 09:25:00,013 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 09:25:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 09:25:00,013 - DEBUG - Next wakeup is due at 2023-11-02 09:30:00+09:00 (in 299.986178 seconds)
+2023-11-02 09:30:00,014 - DEBUG - Looking for jobs to run
+2023-11-02 09:30:00,014 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 09:30:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 09:30:00,015 - DEBUG - Next wakeup is due at 2023-11-02 09:35:00+09:00 (in 299.984419 seconds)
+2023-11-02 09:35:00,015 - DEBUG - Looking for jobs to run
+2023-11-02 09:35:00,015 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 09:35:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 09:35:00,015 - DEBUG - Next wakeup is due at 2023-11-02 09:40:00+09:00 (in 299.984369 seconds)
+2023-11-02 09:40:00,016 - DEBUG - Looking for jobs to run
+2023-11-02 09:40:00,016 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 09:40:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 09:40:00,016 - DEBUG - Next wakeup is due at 2023-11-02 09:45:00+09:00 (in 299.983965 seconds)
+2023-11-02 09:45:00,012 - DEBUG - Looking for jobs to run
+2023-11-02 09:45:00,012 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 09:45:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 09:45:00,012 - DEBUG - Next wakeup is due at 2023-11-02 09:50:00+09:00 (in 299.987402 seconds)
+2023-11-02 09:50:00,014 - DEBUG - Looking for jobs to run
+2023-11-02 09:50:00,014 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 09:50:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 09:50:00,015 - DEBUG - Next wakeup is due at 2023-11-02 09:55:00+09:00 (in 299.984127 seconds)
+2023-11-02 09:55:00,004 - DEBUG - Looking for jobs to run
+2023-11-02 09:55:00,004 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 09:55:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 09:55:00,005 - DEBUG - Next wakeup is due at 2023-11-02 10:00:00+09:00 (in 299.994092 seconds)
+2023-11-02 10:00:00,015 - DEBUG - Looking for jobs to run
+2023-11-02 10:00:00,015 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 10:00:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 10:00:00,015 - DEBUG - Next wakeup is due at 2023-11-02 10:05:00+09:00 (in 299.984614 seconds)
+2023-11-02 10:05:00,002 - DEBUG - Looking for jobs to run
+2023-11-02 10:05:00,002 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 10:05:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 10:05:00,003 - DEBUG - Next wakeup is due at 2023-11-02 10:10:00+09:00 (in 299.996825 seconds)
+2023-11-02 10:10:00,006 - DEBUG - Looking for jobs to run
+2023-11-02 10:10:00,006 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 10:10:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 10:10:00,006 - DEBUG - Next wakeup is due at 2023-11-02 10:15:00+09:00 (in 299.993140 seconds)
+2023-11-02 10:15:00,009 - DEBUG - Looking for jobs to run
+2023-11-02 10:15:00,009 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 10:15:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 10:15:00,010 - DEBUG - Next wakeup is due at 2023-11-02 10:20:00+09:00 (in 299.989929 seconds)
+2023-11-02 10:20:00,003 - DEBUG - Looking for jobs to run
+2023-11-02 10:20:00,003 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 10:20:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 10:20:00,004 - DEBUG - Next wakeup is due at 2023-11-02 10:25:00+09:00 (in 299.996105 seconds)
+2023-11-02 10:25:00,006 - DEBUG - Looking for jobs to run
+2023-11-02 10:25:00,006 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 10:25:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 10:25:00,006 - DEBUG - Next wakeup is due at 2023-11-02 10:30:00+09:00 (in 299.993501 seconds)
+2023-11-02 10:30:00,002 - DEBUG - Looking for jobs to run
+2023-11-02 10:30:00,002 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 10:30:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 10:30:00,002 - DEBUG - Next wakeup is due at 2023-11-02 10:35:00+09:00 (in 299.997693 seconds)
+2023-11-02 10:35:00,013 - DEBUG - Looking for jobs to run
+2023-11-02 10:35:00,013 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 10:35:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 10:35:00,013 - DEBUG - Next wakeup is due at 2023-11-02 10:40:00+09:00 (in 299.986180 seconds)
+2023-11-02 10:40:00,014 - DEBUG - Looking for jobs to run
+2023-11-02 10:40:00,014 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 10:40:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 10:40:00,014 - DEBUG - Next wakeup is due at 2023-11-02 10:45:00+09:00 (in 299.985994 seconds)
+2023-11-02 10:45:00,003 - DEBUG - Looking for jobs to run
+2023-11-02 10:45:00,003 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 10:45:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 10:45:00,003 - DEBUG - Next wakeup is due at 2023-11-02 10:50:00+09:00 (in 299.996489 seconds)
+2023-11-02 10:50:00,007 - DEBUG - Looking for jobs to run
+2023-11-02 10:50:00,008 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 10:50:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 10:50:00,009 - DEBUG - Next wakeup is due at 2023-11-02 10:55:00+09:00 (in 299.990237 seconds)
+2023-11-02 10:55:00,008 - DEBUG - Looking for jobs to run
+2023-11-02 10:55:00,008 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 10:55:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 10:55:00,009 - DEBUG - Next wakeup is due at 2023-11-02 11:00:00+09:00 (in 299.990376 seconds)
+2023-11-02 11:00:00,013 - DEBUG - Looking for jobs to run
+2023-11-02 11:00:00,013 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 11:00:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 11:00:00,014 - DEBUG - Next wakeup is due at 2023-11-02 11:05:00+09:00 (in 299.985965 seconds)
+2023-11-02 11:05:00,005 - DEBUG - Looking for jobs to run
+2023-11-02 11:05:00,005 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 11:05:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 11:05:00,005 - DEBUG - Next wakeup is due at 2023-11-02 11:10:00+09:00 (in 299.994994 seconds)
+2023-11-02 11:10:00,013 - DEBUG - Looking for jobs to run
+2023-11-02 11:10:00,013 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 11:10:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 11:10:00,013 - DEBUG - Next wakeup is due at 2023-11-02 11:15:00+09:00 (in 299.986512 seconds)
+2023-11-02 11:15:00,013 - DEBUG - Looking for jobs to run
+2023-11-02 11:15:00,013 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 11:15:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 11:15:00,014 - DEBUG - Next wakeup is due at 2023-11-02 11:20:00+09:00 (in 299.985874 seconds)
+2023-11-02 11:20:00,005 - DEBUG - Looking for jobs to run
+2023-11-02 11:20:00,005 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 11:20:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 11:20:00,006 - DEBUG - Next wakeup is due at 2023-11-02 11:25:00+09:00 (in 299.993863 seconds)
+2023-11-02 11:25:00,001 - DEBUG - Looking for jobs to run
+2023-11-02 11:25:00,001 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 11:25:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 11:25:00,002 - DEBUG - Next wakeup is due at 2023-11-02 11:30:00+09:00 (in 299.997396 seconds)
+2023-11-02 11:30:00,014 - DEBUG - Looking for jobs to run
+2023-11-02 11:30:00,014 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 11:30:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 11:30:00,014 - DEBUG - Next wakeup is due at 2023-11-02 11:35:00+09:00 (in 299.985304 seconds)
+2023-11-02 11:35:00,006 - DEBUG - Looking for jobs to run
+2023-11-02 11:35:00,006 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 11:35:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 11:35:00,007 - DEBUG - Next wakeup is due at 2023-11-02 11:40:00+09:00 (in 299.992206 seconds)
+2023-11-02 11:40:00,003 - DEBUG - Looking for jobs to run
+2023-11-02 11:40:00,003 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 11:40:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 11:40:00,004 - DEBUG - Next wakeup is due at 2023-11-02 11:45:00+09:00 (in 299.995990 seconds)
+2023-11-02 11:45:00,014 - DEBUG - Looking for jobs to run
+2023-11-02 11:45:00,014 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 11:45:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 11:45:00,015 - DEBUG - Next wakeup is due at 2023-11-02 11:50:00+09:00 (in 299.984070 seconds)
+2023-11-02 11:50:00,011 - DEBUG - Looking for jobs to run
+2023-11-02 11:50:00,011 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 11:50:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 11:50:00,012 - DEBUG - Next wakeup is due at 2023-11-02 11:55:00+09:00 (in 299.987248 seconds)
+2023-11-02 11:55:00,002 - DEBUG - Looking for jobs to run
+2023-11-02 11:55:00,002 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 11:55:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 11:55:00,003 - DEBUG - Next wakeup is due at 2023-11-02 12:00:00+09:00 (in 299.996109 seconds)
+2023-11-02 12:00:00,006 - DEBUG - Looking for jobs to run
+2023-11-02 12:00:00,006 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 12:00:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 12:00:00,007 - DEBUG - Next wakeup is due at 2023-11-02 12:05:00+09:00 (in 299.992848 seconds)
+2023-11-02 12:05:00,006 - DEBUG - Looking for jobs to run
+2023-11-02 12:05:00,006 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 12:05:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 12:05:00,007 - DEBUG - Next wakeup is due at 2023-11-02 12:10:00+09:00 (in 299.992880 seconds)
+2023-11-02 12:10:00,006 - DEBUG - Looking for jobs to run
+2023-11-02 12:10:00,006 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 12:10:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 12:10:00,007 - DEBUG - Next wakeup is due at 2023-11-02 12:15:00+09:00 (in 299.992261 seconds)
+2023-11-02 12:15:00,010 - DEBUG - Looking for jobs to run
+2023-11-02 12:15:00,010 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 12:15:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 12:15:00,011 - DEBUG - Next wakeup is due at 2023-11-02 12:20:00+09:00 (in 299.988539 seconds)
+2023-11-02 12:20:00,015 - DEBUG - Looking for jobs to run
+2023-11-02 12:20:00,015 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 12:20:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 12:20:00,015 - DEBUG - Next wakeup is due at 2023-11-02 12:25:00+09:00 (in 299.984920 seconds)
+2023-11-02 12:25:00,001 - DEBUG - Looking for jobs to run
+2023-11-02 12:25:00,001 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 12:25:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 12:25:00,002 - DEBUG - Next wakeup is due at 2023-11-02 12:30:00+09:00 (in 299.997644 seconds)
+2023-11-02 12:30:00,005 - DEBUG - Looking for jobs to run
+2023-11-02 12:30:00,005 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 12:30:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 12:30:00,006 - DEBUG - Next wakeup is due at 2023-11-02 12:35:00+09:00 (in 299.993727 seconds)
+2023-11-02 12:35:00,001 - DEBUG - Looking for jobs to run
+2023-11-02 12:35:00,001 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 12:35:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 12:35:00,002 - DEBUG - Next wakeup is due at 2023-11-02 12:40:00+09:00 (in 299.997092 seconds)
+2023-11-02 12:40:00,005 - DEBUG - Looking for jobs to run
+2023-11-02 12:40:00,005 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 12:40:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 12:40:00,006 - DEBUG - Next wakeup is due at 2023-11-02 12:45:00+09:00 (in 299.993769 seconds)
+2023-11-02 12:45:00,014 - DEBUG - Looking for jobs to run
+2023-11-02 12:45:00,014 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 12:45:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 12:45:00,015 - DEBUG - Next wakeup is due at 2023-11-02 12:50:00+09:00 (in 299.984582 seconds)
+2023-11-02 12:50:00,012 - DEBUG - Looking for jobs to run
+2023-11-02 12:50:00,012 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 12:50:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 12:50:00,013 - DEBUG - Next wakeup is due at 2023-11-02 12:55:00+09:00 (in 299.986267 seconds)
+2023-11-02 12:55:00,009 - DEBUG - Looking for jobs to run
+2023-11-02 12:55:00,009 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 12:55:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 12:55:00,009 - DEBUG - Next wakeup is due at 2023-11-02 13:00:00+09:00 (in 299.990545 seconds)
+2023-11-02 13:00:00,004 - DEBUG - Looking for jobs to run
+2023-11-02 13:00:00,004 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 13:00:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 13:00:00,004 - DEBUG - Next wakeup is due at 2023-11-02 13:05:00+09:00 (in 299.995593 seconds)
+2023-11-02 13:05:00,003 - DEBUG - Looking for jobs to run
+2023-11-02 13:05:00,003 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 13:05:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 13:05:00,004 - DEBUG - Next wakeup is due at 2023-11-02 13:10:00+09:00 (in 299.995582 seconds)
+2023-11-02 13:10:00,012 - DEBUG - Looking for jobs to run
+2023-11-02 13:10:00,012 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 13:10:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 13:10:00,013 - DEBUG - Next wakeup is due at 2023-11-02 13:15:00+09:00 (in 299.986844 seconds)
+2023-11-02 13:15:00,000 - DEBUG - Looking for jobs to run
+2023-11-02 13:15:00,000 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 13:15:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 13:15:00,001 - DEBUG - Next wakeup is due at 2023-11-02 13:20:00+09:00 (in 299.998106 seconds)
+2023-11-02 13:20:00,002 - DEBUG - Looking for jobs to run
+2023-11-02 13:20:00,002 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 13:20:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 13:20:00,003 - DEBUG - Next wakeup is due at 2023-11-02 13:25:00+09:00 (in 299.996394 seconds)
+2023-11-02 13:25:00,010 - DEBUG - Looking for jobs to run
+2023-11-02 13:25:00,010 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 13:25:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 13:25:00,010 - DEBUG - Next wakeup is due at 2023-11-02 13:30:00+09:00 (in 299.989457 seconds)
+2023-11-02 13:30:00,001 - DEBUG - Looking for jobs to run
+2023-11-02 13:30:00,001 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 13:30:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 13:30:00,002 - DEBUG - Next wakeup is due at 2023-11-02 13:35:00+09:00 (in 299.997141 seconds)
+2023-11-02 13:35:00,001 - DEBUG - Looking for jobs to run
+2023-11-02 13:35:00,001 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 13:35:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 13:35:00,002 - DEBUG - Next wakeup is due at 2023-11-02 13:40:00+09:00 (in 299.997086 seconds)
+2023-11-02 13:40:00,012 - DEBUG - Looking for jobs to run
+2023-11-02 13:40:00,012 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 13:40:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 13:40:00,013 - DEBUG - Next wakeup is due at 2023-11-02 13:45:00+09:00 (in 299.986833 seconds)
+2023-11-02 13:45:00,008 - DEBUG - Looking for jobs to run
+2023-11-02 13:45:00,008 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 13:45:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 13:45:00,009 - DEBUG - Next wakeup is due at 2023-11-02 13:50:00+09:00 (in 299.990651 seconds)
+2023-11-02 13:46:57,308 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 13:55:00 KST)" executed successfully
+2023-11-02 13:50:00,002 - DEBUG - Looking for jobs to run
+2023-11-02 13:50:00,003 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 13:50:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 13:50:00,003 - DEBUG - Next wakeup is due at 2023-11-02 13:55:00+09:00 (in 299.996981 seconds)
+2023-11-02 13:55:00,000 - DEBUG - Looking for jobs to run
+2023-11-02 13:55:00,001 - DEBUG - Next wakeup is due at 2023-11-02 14:00:00+09:00 (in 299.998242 seconds)
+2023-11-02 13:55:00,001 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 14:05:00 KST)" (scheduled at 2023-11-02 13:55:00+09:00)
+2023-11-02 14:00:00,008 - DEBUG - Looking for jobs to run
+2023-11-02 14:00:00,008 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 14:00:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 14:00:00,009 - DEBUG - Next wakeup is due at 2023-11-02 14:05:00+09:00 (in 299.990421 seconds)
+2023-11-02 14:05:00,006 - DEBUG - Looking for jobs to run
+2023-11-02 14:05:00,006 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 14:05:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 14:05:00,007 - DEBUG - Next wakeup is due at 2023-11-02 14:10:00+09:00 (in 299.992933 seconds)
+2023-11-02 14:10:00,012 - DEBUG - Looking for jobs to run
+2023-11-02 14:10:00,012 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 14:10:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 14:10:00,012 - DEBUG - Next wakeup is due at 2023-11-02 14:15:00+09:00 (in 299.987028 seconds)
+2023-11-02 14:15:00,002 - DEBUG - Looking for jobs to run
+2023-11-02 14:15:00,002 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 14:15:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 14:15:00,003 - DEBUG - Next wakeup is due at 2023-11-02 14:20:00+09:00 (in 299.996253 seconds)
+2023-11-02 14:20:00,013 - DEBUG - Looking for jobs to run
+2023-11-02 14:20:00,013 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 14:20:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 14:20:00,014 - DEBUG - Next wakeup is due at 2023-11-02 14:25:00+09:00 (in 299.986188 seconds)
+2023-11-02 14:25:00,002 - DEBUG - Looking for jobs to run
+2023-11-02 14:25:00,002 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 14:25:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 14:25:00,002 - DEBUG - Next wakeup is due at 2023-11-02 14:30:00+09:00 (in 299.997753 seconds)
+2023-11-02 14:30:00,009 - DEBUG - Looking for jobs to run
+2023-11-02 14:30:00,009 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 14:30:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 14:30:00,010 - DEBUG - Next wakeup is due at 2023-11-02 14:35:00+09:00 (in 299.989479 seconds)
+2023-11-02 14:35:00,009 - DEBUG - Looking for jobs to run
+2023-11-02 14:35:00,009 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 14:35:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 14:35:00,010 - DEBUG - Next wakeup is due at 2023-11-02 14:40:00+09:00 (in 299.989676 seconds)
+2023-11-02 14:40:00,011 - DEBUG - Looking for jobs to run
+2023-11-02 14:40:00,011 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 14:40:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 14:40:00,012 - DEBUG - Next wakeup is due at 2023-11-02 14:45:00+09:00 (in 299.987809 seconds)
+2023-11-02 14:45:00,013 - DEBUG - Looking for jobs to run
+2023-11-02 14:45:00,013 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 14:45:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 14:45:00,014 - DEBUG - Next wakeup is due at 2023-11-02 14:50:00+09:00 (in 299.985128 seconds)
+2023-11-02 14:50:00,013 - DEBUG - Looking for jobs to run
+2023-11-02 14:50:00,013 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 14:50:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 14:50:00,014 - DEBUG - Next wakeup is due at 2023-11-02 14:55:00+09:00 (in 299.985053 seconds)
+2023-11-02 14:55:00,015 - DEBUG - Looking for jobs to run
+2023-11-02 14:55:00,015 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 14:55:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 14:55:00,015 - DEBUG - Next wakeup is due at 2023-11-02 15:00:00+09:00 (in 299.984146 seconds)
+2023-11-02 15:00:00,010 - DEBUG - Looking for jobs to run
+2023-11-02 15:00:00,010 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 15:00:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 15:00:00,010 - DEBUG - Next wakeup is due at 2023-11-02 15:05:00+09:00 (in 299.989597 seconds)
+2023-11-02 15:05:00,006 - DEBUG - Looking for jobs to run
+2023-11-02 15:05:00,007 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 15:05:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 15:05:00,007 - DEBUG - Next wakeup is due at 2023-11-02 15:10:00+09:00 (in 299.992750 seconds)
+2023-11-02 15:10:00,006 - DEBUG - Looking for jobs to run
+2023-11-02 15:10:00,006 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 15:10:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 15:10:00,007 - DEBUG - Next wakeup is due at 2023-11-02 15:15:00+09:00 (in 299.992540 seconds)
+2023-11-02 15:15:00,009 - DEBUG - Looking for jobs to run
+2023-11-02 15:15:00,009 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 15:15:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 15:15:00,010 - DEBUG - Next wakeup is due at 2023-11-02 15:20:00+09:00 (in 299.989911 seconds)
+2023-11-02 15:20:00,004 - DEBUG - Looking for jobs to run
+2023-11-02 15:20:00,004 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 15:20:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 15:20:00,005 - DEBUG - Next wakeup is due at 2023-11-02 15:25:00+09:00 (in 299.994359 seconds)
+2023-11-02 15:25:00,012 - DEBUG - Looking for jobs to run
+2023-11-02 15:25:00,012 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 15:25:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 15:25:00,013 - DEBUG - Next wakeup is due at 2023-11-02 15:30:00+09:00 (in 299.986778 seconds)
+2023-11-02 15:30:00,003 - DEBUG - Looking for jobs to run
+2023-11-02 15:30:00,003 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 15:30:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 15:30:00,004 - DEBUG - Next wakeup is due at 2023-11-02 15:35:00+09:00 (in 299.995674 seconds)
+2023-11-02 15:35:00,007 - DEBUG - Looking for jobs to run
+2023-11-02 15:35:00,007 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 15:35:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 15:35:00,008 - DEBUG - Next wakeup is due at 2023-11-02 15:40:00+09:00 (in 299.991253 seconds)
+2023-11-02 15:40:00,013 - DEBUG - Looking for jobs to run
+2023-11-02 15:40:00,013 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 15:40:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 15:40:00,013 - DEBUG - Next wakeup is due at 2023-11-02 15:45:00+09:00 (in 299.986110 seconds)
+2023-11-02 15:45:00,008 - DEBUG - Looking for jobs to run
+2023-11-02 15:45:00,008 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 15:45:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 15:45:00,009 - DEBUG - Next wakeup is due at 2023-11-02 15:50:00+09:00 (in 299.990479 seconds)
+2023-11-02 15:50:00,005 - DEBUG - Looking for jobs to run
+2023-11-02 15:50:00,005 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 15:50:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 15:50:00,006 - DEBUG - Next wakeup is due at 2023-11-02 15:55:00+09:00 (in 299.993444 seconds)
+2023-11-02 15:52:28,762 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 15:55:00 KST)" executed successfully
+2023-11-02 15:52:29,165 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 16:00:00 KST)" executed successfully
+2023-11-02 15:52:29,463 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 16:00:00 KST)" executed successfully
+2023-11-02 15:52:46,625 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 15:55:00 KST)" executed successfully
+2023-11-02 15:55:00,006 - DEBUG - Looking for jobs to run
+2023-11-02 15:55:00,006 - DEBUG - Next wakeup is due at 2023-11-02 16:00:00+09:00 (in 299.993295 seconds)
+2023-11-02 15:55:00,006 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 16:05:00 KST)" (scheduled at 2023-11-02 15:55:00+09:00)
+2023-11-02 15:55:01,885 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 16:05:00 KST)" executed successfully
+2023-11-02 16:00:00,012 - DEBUG - Looking for jobs to run
+2023-11-02 16:00:00,013 - DEBUG - Next wakeup is due at 2023-11-02 16:05:00+09:00 (in 299.986489 seconds)
+2023-11-02 16:00:00,013 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 16:10:00 KST)" (scheduled at 2023-11-02 16:00:00+09:00)
+2023-11-02 16:00:48,471 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 16:10:00 KST)" executed successfully
+2023-11-02 16:05:00,013 - DEBUG - Looking for jobs to run
+2023-11-02 16:05:00,013 - DEBUG - Next wakeup is due at 2023-11-02 16:10:00+09:00 (in 299.986512 seconds)
+2023-11-02 16:05:00,013 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 16:15:00 KST)" (scheduled at 2023-11-02 16:05:00+09:00)
+2023-11-02 16:05:03,888 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 16:15:00 KST)" executed successfully
+2023-11-02 16:10:00,013 - DEBUG - Looking for jobs to run
+2023-11-02 16:10:00,014 - DEBUG - Next wakeup is due at 2023-11-02 16:15:00+09:00 (in 299.985150 seconds)
+2023-11-02 16:10:00,014 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 16:20:00 KST)" (scheduled at 2023-11-02 16:10:00+09:00)
+2023-11-02 16:10:07,493 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 16:20:00 KST)" executed successfully
+2023-11-02 16:15:00,002 - DEBUG - Looking for jobs to run
+2023-11-02 16:15:00,003 - DEBUG - Next wakeup is due at 2023-11-02 16:20:00+09:00 (in 299.997430 seconds)
+2023-11-02 16:15:00,003 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 16:25:00 KST)" (scheduled at 2023-11-02 16:15:00+09:00)
+2023-11-02 16:15:10,566 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 16:25:00 KST)" executed successfully
+2023-11-02 16:20:00,004 - DEBUG - Looking for jobs to run
+2023-11-02 16:20:00,004 - DEBUG - Next wakeup is due at 2023-11-02 16:25:00+09:00 (in 299.995337 seconds)
+2023-11-02 16:20:00,004 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 16:30:00 KST)" (scheduled at 2023-11-02 16:20:00+09:00)
+2023-11-02 16:20:12,180 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 16:30:00 KST)" executed successfully
+2023-11-02 16:25:00,005 - DEBUG - Looking for jobs to run
+2023-11-02 16:25:00,006 - DEBUG - Next wakeup is due at 2023-11-02 16:30:00+09:00 (in 299.993363 seconds)
+2023-11-02 16:25:00,006 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 16:35:00 KST)" (scheduled at 2023-11-02 16:25:00+09:00)
+2023-11-02 16:25:06,293 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 16:35:00 KST)" executed successfully
+2023-11-02 16:30:00,001 - DEBUG - Looking for jobs to run
+2023-11-02 16:30:00,002 - DEBUG - Next wakeup is due at 2023-11-02 16:35:00+09:00 (in 299.997120 seconds)
+2023-11-02 16:30:00,002 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 16:40:00 KST)" (scheduled at 2023-11-02 16:30:00+09:00)
+2023-11-02 16:30:03,683 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 16:40:00 KST)" executed successfully
+2023-11-02 16:35:00,003 - DEBUG - Looking for jobs to run
+2023-11-02 16:35:00,003 - DEBUG - Next wakeup is due at 2023-11-02 16:40:00+09:00 (in 299.996166 seconds)
+2023-11-02 16:35:00,003 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 16:45:00 KST)" (scheduled at 2023-11-02 16:35:00+09:00)
+2023-11-02 16:35:06,712 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 16:45:00 KST)" executed successfully
+2023-11-02 16:40:00,015 - DEBUG - Looking for jobs to run
+2023-11-02 16:40:00,015 - DEBUG - Next wakeup is due at 2023-11-02 16:45:00+09:00 (in 299.984993 seconds)
+2023-11-02 16:40:00,015 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 16:50:00 KST)" (scheduled at 2023-11-02 16:40:00+09:00)
+2023-11-02 16:40:35,789 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 16:50:00 KST)" executed successfully
+2023-11-02 16:45:00,011 - DEBUG - Looking for jobs to run
+2023-11-02 16:45:00,012 - DEBUG - Next wakeup is due at 2023-11-02 16:50:00+09:00 (in 299.987850 seconds)
+2023-11-02 16:45:00,012 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 16:55:00 KST)" (scheduled at 2023-11-02 16:45:00+09:00)
+2023-11-02 16:45:19,699 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 16:55:00 KST)" executed successfully
+2023-11-02 16:50:00,008 - DEBUG - Looking for jobs to run
+2023-11-02 16:50:00,009 - DEBUG - Next wakeup is due at 2023-11-02 16:55:00+09:00 (in 299.990166 seconds)
+2023-11-02 16:50:00,010 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 17:00:00 KST)" (scheduled at 2023-11-02 16:50:00+09:00)
+2023-11-02 16:50:27,193 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 17:00:00 KST)" executed successfully
+2023-11-02 16:55:00,010 - DEBUG - Looking for jobs to run
+2023-11-02 16:55:00,011 - DEBUG - Next wakeup is due at 2023-11-02 17:00:00+09:00 (in 299.988950 seconds)
+2023-11-02 16:55:00,011 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 17:05:00 KST)" (scheduled at 2023-11-02 16:55:00+09:00)
+2023-11-02 16:55:26,206 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 17:05:00 KST)" executed successfully
+2023-11-02 17:00:00,011 - DEBUG - Looking for jobs to run
+2023-11-02 17:00:00,012 - DEBUG - Next wakeup is due at 2023-11-02 17:05:00+09:00 (in 299.987275 seconds)
+2023-11-02 17:00:00,012 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 17:10:00 KST)" (scheduled at 2023-11-02 17:00:00+09:00)
+2023-11-02 17:00:05,963 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 17:10:00 KST)" executed successfully
+2023-11-02 17:05:00,015 - DEBUG - Looking for jobs to run
+2023-11-02 17:05:00,015 - DEBUG - Next wakeup is due at 2023-11-02 17:10:00+09:00 (in 299.984654 seconds)
+2023-11-02 17:05:00,015 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 17:15:00 KST)" (scheduled at 2023-11-02 17:05:00+09:00)
+2023-11-02 17:05:06,365 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 17:15:00 KST)" executed successfully
+2023-11-02 17:10:00,008 - DEBUG - Looking for jobs to run
+2023-11-02 17:10:00,008 - DEBUG - Next wakeup is due at 2023-11-02 17:15:00+09:00 (in 299.991071 seconds)
+2023-11-02 17:10:00,008 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 17:20:00 KST)" (scheduled at 2023-11-02 17:10:00+09:00)
+2023-11-02 17:11:23,646 - DEBUG - 디버그 메시지입니다.
+2023-11-02 17:11:23,646 - INFO - 정보 메시지입니다.
+2023-11-02 17:11:23,646 - WARNING - 경고 메시지입니다.
+2023-11-02 17:11:23,646 - ERROR - 에러 메시지입니다.
+2023-11-02 17:11:23,646 - CRITICAL - 심각한 오류 메시지입니다.
+2023-11-02 17:11:23,647 - DEBUG - Looking up time zone info from registry
+2023-11-02 17:11:23,655 - INFO - Scheduler started
+2023-11-02 17:11:23,656 - DEBUG - Looking for jobs to run
+2023-11-02 17:11:23,656 - DEBUG - No jobs; waiting until a job is added
+2023-11-02 17:11:23,660 - INFO - Added job "ThreadRead.thread_function" to job store "default"
+2023-11-02 17:11:23,661 - INFO - Added job "ThreadRead.thread_function" to job store "default"
+2023-11-02 17:11:23,661 - DEBUG - Looking for jobs to run
+2023-11-02 17:11:23,661 - INFO - Added job "ThreadRead.thread_function" to job store "default"
+2023-11-02 17:11:23,661 - DEBUG - Next wakeup is due at 2023-11-02 17:15:00+09:00 (in 216.338601 seconds)
+2023-11-02 17:11:23,661 - INFO - Added job "ThreadRead.thread_function" to job store "default"
+2023-11-02 17:11:23,661 - DEBUG - Looking for jobs to run
+2023-11-02 17:11:23,662 - INFO - Added job "ThreadRead.thread_function" to job store "default"
+2023-11-02 17:11:23,662 - DEBUG - Next wakeup is due at 2023-11-02 17:15:00+09:00 (in 216.337602 seconds)
+2023-11-02 17:11:23,662 - DEBUG - Looking for jobs to run
+2023-11-02 17:11:23,662 - DEBUG - Next wakeup is due at 2023-11-02 17:15:00+09:00 (in 216.337602 seconds)
+2023-11-02 17:15:00,004 - DEBUG - Looking for jobs to run
+2023-11-02 17:15:00,004 - DEBUG - Looking for jobs to run
+2023-11-02 17:15:00,004 - DEBUG - Next wakeup is due at 2023-11-02 17:20:00+09:00 (in 299.995989 seconds)
+2023-11-02 17:15:00,005 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 17:15:00 KST)" (scheduled at 2023-11-02 17:15:00+09:00)
+2023-11-02 17:15:00,005 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 17:25:00 KST)" (scheduled at 2023-11-02 17:15:00+09:00)
+2023-11-02 17:15:00,005 - DEBUG - Next wakeup is due at 2023-11-02 17:20:00+09:00 (in 299.994989 seconds)
+2023-11-02 17:15:11,840 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 17:25:00 KST)" executed successfully
+2023-11-02 17:20:00,009 - DEBUG - Looking for jobs to run
+2023-11-02 17:20:00,009 - DEBUG - Looking for jobs to run
+2023-11-02 17:20:00,009 - DEBUG - Next wakeup is due at 2023-11-02 17:25:00+09:00 (in 299.990153 seconds)
+2023-11-02 17:20:00,009 - DEBUG - Next wakeup is due at 2023-11-02 17:25:00+09:00 (in 299.990153 seconds)
+2023-11-02 17:20:00,009 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 17:30:00 KST)" (scheduled at 2023-11-02 17:20:00+09:00)
+2023-11-02 17:20:00,010 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 17:30:00 KST)" (scheduled at 2023-11-02 17:20:00+09:00)
+2023-11-02 17:20:06,355 - INFO - Job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 17:30:00 KST)" executed successfully
+2023-11-02 17:22:22,611 - INFO - Scheduler has been shut down
+2023-11-02 17:22:22,611 - DEBUG - Looking for jobs to run
+2023-11-02 17:22:22,611 - DEBUG - No jobs; waiting until a job is added
+2023-11-02 17:25:00,014 - DEBUG - Looking for jobs to run
+2023-11-02 17:25:00,014 - DEBUG - Next wakeup is due at 2023-11-02 17:30:00+09:00 (in 299.985006 seconds)
+2023-11-02 17:25:00,014 - INFO - Running job "ThreadRead.thread_function (trigger: cron[minute='5,15,25,35,45,55'], next run at: 2023-11-02 17:35:00 KST)" (scheduled at 2023-11-02 17:25:00+09:00)
+2023-11-02 17:30:00,003 - DEBUG - Looking for jobs to run
+2023-11-02 17:30:00,003 - WARNING - Execution of job "ThreadRead.thread_function (trigger: cron[minute='10,20,30,40,50,0'], next run at: 2023-11-02 17:30:00 KST)" skipped: maximum number of running instances reached (3)
+2023-11-02 17:30:00,003 - DEBUG - Next wakeup is due at 2023-11-02 17:35:00+09:00 (in 299.996461 seconds)
